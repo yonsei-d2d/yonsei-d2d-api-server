@@ -40,6 +40,7 @@ try:
         location["node_id"] = node.get('id')
         location["latitude"] = node.get('lat')
         location["longitude"] = node.get('lon')
+        location["level"] = 0
         for tag in node.findall('tag'):
             if tag.get('k') == 'location_type':
                 location["type"] = tag.get('v')

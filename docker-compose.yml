@@ -21,7 +21,7 @@ services:
     entrypoint: osrm-routed --algorithm mld /data/yonsei_processed.osrm
     restart: always
     ports:
-      - 5000:5000
+      - 6000:5000
     volumes:
       - ./osrm/map:/data
 
