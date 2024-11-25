@@ -11,6 +11,7 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 public class Location extends Routable {
+    private String id;
     private String name;
     private String tag;
     private LocationType type;
