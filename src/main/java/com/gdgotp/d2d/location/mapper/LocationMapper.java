@@ -7,6 +7,7 @@ import com.gdgotp.d2d.route.dto.RouteResponseDto;
 public class LocationMapper {
     public static Location fromEntity(LocationEntity entity) {
         return Location.builder()
+                .id(entity.getId().toString())
                 .lat(entity.getLatitude())
                 .lng(entity.getLongitude())
                 .nodeId(entity.getNodeId())

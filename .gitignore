@@ -42,6 +42,9 @@ out/
 ### Parsed OSRM Map Data
 /osrm/map/yonsei_processed*
 
+### Backup OSRM Map Data
+/map_backups
+
 ### Postgres Data
 /postgres/data
 
@@ -53,3 +56,4 @@ out/
 
 ### Migration Data
 location.csv
+migration.csv

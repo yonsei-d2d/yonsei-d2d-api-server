@@ -7,14 +7,14 @@ import lombok.Setter;
 import org.hibernate.annotations.ColumnDefault;
 
 import java.util.List;
+import java.util.UUID;
 
 @Entity(name = "location")
 @Getter
 @Setter
 public class LocationEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private UUID id;
 
     @NotEmpty
     @Column(unique = true)
