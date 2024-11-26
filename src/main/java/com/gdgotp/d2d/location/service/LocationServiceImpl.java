@@ -1,8 +1,10 @@
 package com.gdgotp.d2d.location.service;
 
 import com.gdgotp.d2d.common.enums.LocationType;
+import com.gdgotp.d2d.location.dto.LocationResponseDto;
 import com.gdgotp.d2d.location.mapper.LocationMapper;
 import com.gdgotp.d2d.location.model.Location;
+import com.gdgotp.d2d.location.repository.AliasRepository;
 import com.gdgotp.d2d.location.repository.LocationRepository;
 import org.springframework.stereotype.Service;
 import java.util.List;
@@ -11,9 +13,11 @@ import java.util.List;
 public class LocationServiceImpl implements LocationService {
 
     private final LocationRepository locationRepository;
+    private final AliasRepository aliasRepository;
 
-    public LocationServiceImpl(LocationRepository locationRepository) {
+    public LocationServiceImpl(LocationRepository locationRepository, AliasRepository aliasRepository) {
         this.locationRepository = locationRepository;
+        this.aliasRepository = aliasRepository;
     }
 
     @Override
@@ -38,5 +42,14 @@ public class LocationServiceImpl implements LocationService {
     public Location findLocationByName(String name) {
         var result = locationRepository.findByName(name);
         return result.map(LocationMapper::fromEntity).orElse(null);
+    }
+
+    @Override
+    public List<LocationResponseDto> searchLocation(String query) {
+        var result = aliasRepository.searchByNameContaining(query)
+                .stream()
+                .map(LocationMapper::fromAliasEntity)
+                .toList();;
+        return result.stream().map(LocationMapper::toLocationResponseDto).toList();
     }
 }

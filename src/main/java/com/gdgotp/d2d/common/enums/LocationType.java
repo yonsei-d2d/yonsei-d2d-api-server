@@ -18,4 +18,13 @@ public enum LocationType {
     LocationType(final String value) {
         this.value = value;
     }
+
+    public static LocationType fromValue(String value) {
+        for (LocationType type : LocationType.values()) {
+            if (type.value.equalsIgnoreCase(value)) {
+                return type;
+            }
+        }
+        throw new IllegalArgumentException("Unknown LocationType value: " + value);
+    }
 }
