@@ -4,6 +4,7 @@ import com.gdgotp.d2d.common.enums.LocationType;
 import com.gdgotp.d2d.location.dto.LocationResponseDto;
 import com.gdgotp.d2d.location.entity.AliasEntity;
 import com.gdgotp.d2d.location.entity.LocationEntity;
+import com.gdgotp.d2d.location.entity.TagEntity;
 import com.gdgotp.d2d.location.model.Location;
 import com.gdgotp.d2d.route.dto.RouteResponseDto;
 
@@ -16,6 +17,7 @@ public class LocationMapper {
                 .nodeId(entity.getNodeId())
                 .name(entity.getName())
                 .level(entity.getLevel())
+                .tag(entity.getTag().stream().map(TagEntity::getTag).toList())
                 .build();
     }
 

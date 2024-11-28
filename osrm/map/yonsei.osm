@@ -5,46 +5,53 @@
   <node id="-29282" action="modify" visible="true" lat="37.56174338003" lon="126.93676245493" />
   <node id="-29283" action="modify" visible="true" lat="37.56288028123" lon="126.93660218372" />
   <node id="-29284" action="modify" visible="true" lat="37.56186820011" lon="126.93610481258">
+    <tag k="db_id" v="527d66a0-16f3-5946-8298-d11d8dcb1999" />
     <tag k="location_type" v="building" />
     <tag k="name" v="제4공학관" />
-  <tag k="db_id" v="527d66a0-16f3-5946-8298-d11d8dcb1999" /></node>
+  </node>
   <node id="-29285" action="modify" visible="true" lat="37.5639778361" lon="126.93561389163" />
   <node id="-29286" action="modify" visible="true" lat="37.56389236842" lon="126.93609678904">
+    <tag k="db_id" v="0ef67bf4-b694-5947-ab37-2185441e3f4c" />
     <tag k="location_type" v="building" />
     <tag k="name" v="연세삼성학술정보원" />
-  <tag k="db_id" v="0ef67bf4-b694-5947-ab37-2185441e3f4c" /></node>
+  </node>
   <node id="-29287" action="modify" visible="true" lat="37.56375198152" lon="126.93688998203">
+    <tag k="db_id" v="49416798-872c-54e9-898c-387f6022adb5" />
     <tag k="location_type" v="building" />
     <tag k="name" v="중앙도서관" />
-  <tag k="db_id" v="49416798-872c-54e9-898c-387f6022adb5" /></node>
+  </node>
   <node id="-29288" action="modify" visible="true" lat="37.56381032912" lon="126.93648205764" />
   <node id="-29289" action="modify" visible="true" lat="37.5635063736" lon="126.9381642383" />
   <node id="-29290" action="modify" visible="true" lat="37.56346506112" lon="126.93839013442">
+    <tag k="db_id" v="33219307-bc56-53f7-bd7b-4d2e7e8e79e5" />
     <tag k="location_type" v="building" />
     <tag k="name" v="학생회관" />
-  <tag k="db_id" v="33219307-bc56-53f7-bd7b-4d2e7e8e79e5" /></node>
+  </node>
   <node id="-29291" action="modify" visible="true" lat="37.56403653962" lon="126.93858684251" />
   <node id="-29292" action="modify" visible="true" lat="37.5650266869" lon="126.93870529398" />
   <node id="-29293" action="modify" visible="true" lat="37.56516261206" lon="126.93864479376" />
   <node id="-29294" action="modify" visible="true" lat="37.56494249128" lon="126.93867680187" />
   <node id="-29295" action="modify" visible="true" lat="37.56487998689" lon="126.93899899587">
+    <tag k="db_id" v="654f0f90-5cac-5b98-9e1c-65e0222acd75" />
     <tag k="location_type" v="building" />
     <tag k="name" v="경영관" />
-  <tag k="db_id" v="654f0f90-5cac-5b98-9e1c-65e0222acd75" /></node>
+  </node>
   <node id="-29296" action="modify" visible="true" lat="37.56444493417" lon="126.93850842733" />
   <node id="-29297" action="modify" visible="true" lat="37.56437929121" lon="126.93883404002">
+    <tag k="db_id" v="e40c5ef9-cae6-5e28-9a96-77e6759cd097" />
     <tag k="location_type" v="building" />
     <tag k="name" v="대강당" />
-  <tag k="db_id" v="e40c5ef9-cae6-5e28-9a96-77e6759cd097" /></node>
+  </node>
   <node id="-29298" action="modify" visible="true" lat="37.56439848338" lon="126.93873883996" />
   <node id="-29299" action="modify" visible="true" lat="37.56419802924" lon="126.93842487452" />
   <node id="-29300" action="modify" visible="true" lat="37.56415817612" lon="126.93865969643" />
   <node id="-29301" action="modify" visible="true" lat="37.56459827954" lon="126.9388005124" />
   <node id="-29302" action="modify" visible="true" lat="37.56463719943" lon="126.93857349023" />
   <node id="-29303" action="modify" visible="true" lat="37.5608764545" lon="126.93543433875">
+    <tag k="db_id" v="e2a428fb-f334-5017-a98e-88be115291c7" />
     <tag k="location_type" v="building" />
     <tag k="name" v="공학원" />
-  <tag k="db_id" v="e2a428fb-f334-5017-a98e-88be115291c7" /></node>
+  </node>
   <node id="-29304" action="modify" visible="true" lat="37.56128441947" lon="126.93556568728" />
   <node id="-29305" action="modify" visible="true" lat="37.56048296646" lon="126.93530624726" />
   <node id="-29306" action="modify" visible="true" lat="37.56129399214" lon="126.93551504656" />
@@ -53,166 +60,206 @@
   <node id="-29309" action="modify" visible="true" lat="37.56196767761" lon="126.93573571865" />
   <node id="-29310" action="modify" visible="true" lat="37.56490492148" lon="126.9345412643" />
   <node id="-29311" action="modify" visible="true" lat="37.56490549995" lon="126.93436011538">
+    <tag k="db_id" v="f7d5f36e-329a-52da-bcea-6fb3b24c7feb" />
     <tag k="location_type" v="building" />
     <tag k="name" v="삼성관" />
-  <tag k="db_id" v="f7d5f36e-329a-52da-bcea-6fb3b24c7feb" /></node>
+  </node>
   <node id="-29312" action="modify" visible="true" lat="37.56164882074" lon="126.9372137998" />
   <node id="-29313" action="modify" visible="true" lat="37.56225422157" lon="126.93340927094">
+    <tag k="db_id" v="73eb9963-b740-57e0-b192-108e8ce2b3fc" />
     <tag k="location_type" v="building" />
     <tag k="name" v="대운동장" />
-  <tag k="db_id" v="73eb9963-b740-57e0-b192-108e8ce2b3fc" /></node>
+  </node>
   <node id="-29314" action="modify" visible="true" lat="37.56121664627" lon="126.9341120097">
+    <tag k="db_id" v="68f3d301-4336-50ca-91b5-f115ddfcf4d9" />
     <tag k="location_type" v="building" />
     <tag k="name" v="야구장" />
-  <tag k="db_id" v="68f3d301-4336-50ca-91b5-f115ddfcf4d9" /></node>
+  </node>
   <node id="-29315" action="modify" visible="true" lat="37.56182162978" lon="126.93507621156">
+    <tag k="db_id" v="18c279b1-d271-5062-9b57-e6df0d1bbabe" />
     <tag k="location_type" v="building" />
     <tag k="name" v="제3공학관" />
-  <tag k="db_id" v="18c279b1-d271-5062-9b57-e6df0d1bbabe" /></node>
+  </node>
   <node id="-29316" action="modify" visible="true" lat="37.56178504266" lon="126.93654294618">
+    <tag k="db_id" v="3c00db67-f678-5d19-a316-0f853126f0d7" />
     <tag k="location_type" v="building" />
     <tag k="name" v="제1공학관" />
-  <tag k="db_id" v="3c00db67-f678-5d19-a316-0f853126f0d7" /></node>
+  </node>
   <node id="-29317" action="modify" visible="true" lat="37.56233501576" lon="126.93527608842">
+    <tag k="db_id" v="bb9f8652-bccd-5bf4-b374-9b5afdb79b98" />
     <tag k="location_type" v="building" />
     <tag k="name" v="제2공학관" />
-  <tag k="db_id" v="bb9f8652-bccd-5bf4-b374-9b5afdb79b98" /></node>
+  </node>
   <node id="-29318" action="modify" visible="true" lat="37.56307279025" lon="126.93573742837">
+    <tag k="db_id" v="d1329ac4-4742-50aa-ba85-8344b2aa1dbe" />
     <tag k="location_type" v="building" />
     <tag k="name" v="체육관" />
-  <tag k="db_id" v="d1329ac4-4742-50aa-ba85-8344b2aa1dbe" /></node>
+  </node>
   <node id="-29319" action="modify" visible="true" lat="37.56320248472" lon="126.9351822111">
+    <tag k="db_id" v="3210b227-f1c0-5cca-8320-2d0f527df2df" />
     <tag k="location_type" v="building" />
     <tag k="name" v="체육교육관" />
-  <tag k="db_id" v="3210b227-f1c0-5cca-8320-2d0f527df2df" /></node>
+  </node>
   <node id="-29320" action="modify" visible="true" lat="37.5634342333" lon="126.93470209569">
+    <tag k="db_id" v="9a4be06f-f726-504e-abc0-be3ae20b6c0e" />
     <tag k="location_type" v="building" />
     <tag k="name" v="과학원" />
-  <tag k="db_id" v="9a4be06f-f726-504e-abc0-be3ae20b6c0e" /></node>
+  </node>
   <node id="-29321" action="modify" visible="true" lat="37.56316846652" lon="126.93380892009">
+    <tag k="db_id" v="e3a11ba2-b453-5962-ac9a-be9469b3869b" />
     <tag k="location_type" v="building" />
     <tag k="name" v="첨단과학관" />
-  <tag k="db_id" v="e3a11ba2-b453-5962-ac9a-be9469b3869b" /></node>
+  </node>
   <node id="-29322" action="modify" visible="true" lat="37.56298349228" lon="126.93446069688">
+    <tag k="db_id" v="7f3a7116-a665-534d-90a4-2b6ab6a76529" />
     <tag k="location_type" v="building" />
     <tag k="name" v="IBS관" />
-  <tag k="db_id" v="7f3a7116-a665-534d-90a4-2b6ab6a76529" /></node>
+  </node>
   <node id="-29323" action="modify" visible="true" lat="37.5620458572" lon="126.93796634406">
+    <tag k="db_id" v="f8e40b47-b12d-55f1-8066-7b036aba1f38" />
     <tag k="location_type" v="building" />
     <tag k="name" v="백주년기념관" />
-  <tag k="db_id" v="f8e40b47-b12d-55f1-8066-7b036aba1f38" /></node>
+  </node>
   <node id="-29324" action="modify" visible="true" lat="37.56273685926" lon="126.93549602956">
+    <tag k="db_id" v="03f3ca3a-f5dc-523e-ad8e-853bf45679dc" />
     <tag k="location_type" v="building" />
     <tag k="name" v="스포츠과학관" />
-  <tag k="db_id" v="03f3ca3a-f5dc-523e-ad8e-853bf45679dc" /></node>
+  </node>
   <node id="-29325" action="modify" visible="true" lat="37.56336321717" lon="126.9388642088">
+    <tag k="db_id" v="c72bec1f-707d-53bc-93d4-9106c45ccc15" />
     <tag k="location_type" v="building" />
     <tag k="name" v="루스채플" />
-  <tag k="db_id" v="c72bec1f-707d-53bc-93d4-9106c45ccc15" /></node>
+  </node>
   <node id="-29326" action="modify" visible="true" lat="37.5639126111" lon="126.9397929284">
+    <tag k="db_id" v="c7e5d798-efa9-5e83-869c-449f97129d12" />
     <tag k="location_type" v="building" />
     <tag k="name" v="음악관A" />
-  <tag k="db_id" v="c7e5d798-efa9-5e83-869c-449f97129d12" /></node>
+  </node>
   <node id="-29327" action="modify" visible="true" lat="37.56399127738" lon="126.94080680341">
+    <tag k="db_id" v="f7c6cfcd-3cfc-599d-8f66-de8f151bbc6a" />
     <tag k="location_type" v="building" />
     <tag k="name" v="음악관B" />
-  <tag k="db_id" v="f7c6cfcd-3cfc-599d-8f66-de8f151bbc6a" /></node>
+  </node>
   <node id="-29328" action="modify" visible="true" lat="37.56478431388" lon="126.9369068715">
+    <tag k="db_id" v="592115f7-36c0-5dd3-bc55-faee38fab8e4" />
     <tag k="location_type" v="building" />
     <tag k="name" v="광복관" />
-  <tag k="db_id" v="592115f7-36c0-5dd3-bc55-faee38fab8e4" /></node>
+  </node>
   <node id="-29329" action="modify" visible="true" lat="37.56465887435" lon="126.93760156363">
+    <tag k="db_id" v="79259227-4b8e-5809-b8eb-4fec472cd60d" />
     <tag k="location_type" v="building" />
     <tag k="name" v="백양관" />
-  <tag k="db_id" v="79259227-4b8e-5809-b8eb-4fec472cd60d" /></node>
+  </node>
   <node id="-29330" action="modify" visible="true" lat="37.56544339945" lon="126.93723141879">
+    <tag k="db_id" v="315fe4a8-8cc5-55ea-af41-66eff782e942" />
     <tag k="location_type" v="building" />
     <tag k="name" v="핀슨관" />
-  <tag k="db_id" v="315fe4a8-8cc5-55ea-af41-66eff782e942" /></node>
+  </node>
   <node id="-29331" action="modify" visible="true" lat="37.56590475588" lon="126.93667620152">
+    <tag k="db_id" v="f695ef49-4c8a-50c2-9b4b-eaff2435e77d" />
     <tag k="location_type" v="building" />
     <tag k="name" v="원두우신학관" />
-  <tag k="db_id" v="f695ef49-4c8a-50c2-9b4b-eaff2435e77d" /></node>
+  </node>
   <node id="-29332" action="modify" visible="true" lat="37.56636823549" lon="126.93697124451">
+    <tag k="db_id" v="32fd6df9-21c4-5f83-abce-e6515e847a0f" />
     <tag k="location_type" v="building" />
     <tag k="name" v="외솔관" />
-  <tag k="db_id" v="32fd6df9-21c4-5f83-abce-e6515e847a0f" /></node>
+  </node>
   <node id="-29333" action="modify" visible="true" lat="37.56653619299" lon="126.93719386786">
+    <tag k="db_id" v="5e5376fa-ca63-5dce-9d26-cf438218839d" />
     <tag k="location_type" v="building" />
     <tag k="name" v="외솔관2" />
-  <tag k="db_id" v="5e5376fa-ca63-5dce-9d26-cf438218839d" /></node>
+  </node>
   <node id="-29334" action="modify" visible="true" lat="37.56670415011" lon="126.9374433133">
+    <tag k="db_id" v="09e8b8b1-2313-5ead-853d-03ce99b866f7" />
     <tag k="location_type" v="building" />
     <tag k="name" v="교육과학관" />
-  <tag k="db_id" v="09e8b8b1-2313-5ead-853d-03ce99b866f7" /></node>
+  </node>
   <node id="-29335" action="modify" visible="true" lat="37.56607696653" lon="126.93819701403">
+    <tag k="db_id" v="9228393a-8ba0-5a45-b596-35473d8f335b" />
     <tag k="location_type" v="building" />
     <tag k="name" v="스팀슨관" />
-  <tag k="db_id" v="9228393a-8ba0-5a45-b596-35473d8f335b" /></node>
+  </node>
   <node id="-29336" action="modify" visible="true" lat="37.56590475588" lon="126.93903118104">
+    <tag k="db_id" v="916d28ae-8ca0-5efe-b302-f1fc1796a84d" />
     <tag k="location_type" v="building" />
     <tag k="name" v="아펜젤러관" />
-  <tag k="db_id" v="916d28ae-8ca0-5efe-b302-f1fc1796a84d" /></node>
+  </node>
   <node id="-29337" action="modify" visible="true" lat="37.56630445407" lon="126.93939327925">
+    <tag k="db_id" v="dd6efe05-508a-56dc-999f-48da8998db39" />
     <tag k="location_type" v="building" />
     <tag k="name" v="논지당" />
-  <tag k="db_id" v="dd6efe05-508a-56dc-999f-48da8998db39" /></node>
+  </node>
   <node id="-29338" action="modify" visible="true" lat="37.56639800014" lon="126.93874150246">
+    <tag k="db_id" v="4ae267e8-ea69-57fd-bf25-9bcf90fe0ebc" />
     <tag k="location_type" v="building" />
     <tag k="name" v="언더우드관" />
-  <tag k="db_id" v="4ae267e8-ea69-57fd-bf25-9bcf90fe0ebc" /></node>
+  </node>
   <node id="-29339" action="modify" visible="true" lat="37.5667381667" lon="126.93943351239">
+    <tag k="db_id" v="c06bce75-9745-5cb0-aa67-5da08bd418e6" />
     <tag k="location_type" v="building" />
     <tag k="name" v="성암관" />
-  <tag k="db_id" v="c06bce75-9745-5cb0-aa67-5da08bd418e6" /></node>
+  </node>
   <node id="-29340" action="modify" visible="true" lat="37.56698053442" lon="126.93834185332">
+    <tag k="db_id" v="5ca76060-7801-5402-8163-14c025b52b23" />
     <tag k="location_type" v="building" />
     <tag k="name" v="유억겸기념관" />
-  <tag k="db_id" v="5ca76060-7801-5402-8163-14c025b52b23" /></node>
+  </node>
   <node id="-29341" action="modify" visible="true" lat="37.5672462876" lon="126.93786173791">
+    <tag k="db_id" v="945d2bb3-e9a2-53ac-8428-9e4b73639358" />
     <tag k="location_type" v="building" />
     <tag k="name" v="위당관" />
-  <tag k="db_id" v="945d2bb3-e9a2-53ac-8428-9e4b73639358" /></node>
+  </node>
   <node id="-29342" action="modify" visible="true" lat="37.56733983249" lon="126.93902581662">
+    <tag k="db_id" v="e46ce3a6-30ae-5f35-8d23-7de3bd549ec2" />
     <tag k="location_type" v="building" />
     <tag k="name" v="연희관" />
-  <tag k="db_id" v="e46ce3a6-30ae-5f35-8d23-7de3bd549ec2" /></node>
+  </node>
   <node id="-29343" action="modify" visible="true" lat="37.56780117717" lon="126.93845718831">
+    <tag k="db_id" v="920581eb-3ebe-52ca-97a3-659134a18dae" />
     <tag k="location_type" v="building" />
     <tag k="name" v="빌링슬리관" />
-  <tag k="db_id" v="920581eb-3ebe-52ca-97a3-659134a18dae" /></node>
+  </node>
   <node id="-29344" action="modify" visible="true" lat="37.567745901" lon="126.93987071246">
+    <tag k="db_id" v="9ad04b3f-49c7-5dc2-9839-a7c534ea0b84" />
     <tag k="location_type" v="building" />
     <tag k="name" v="대우관별관" />
-  <tag k="db_id" v="9ad04b3f-49c7-5dc2-9839-a7c534ea0b84" /></node>
+  </node>
   <node id="-29345" action="modify" visible="true" lat="37.56829473077" lon="126.93940409563">
+    <tag k="db_id" v="956dbb2a-efa5-5347-b7a3-4f5284d1d44d" />
     <tag k="location_type" v="building" />
     <tag k="name" v="대우관" />
-  <tag k="db_id" v="956dbb2a-efa5-5347-b7a3-4f5284d1d44d" /></node>
+  </node>
   <node id="-29346" action="modify" visible="true" lat="37.56629382382" lon="126.9431564185">
+    <tag k="db_id" v="6c59c190-2d37-5d84-8f82-60786bec52db" />
     <tag k="location_type" v="building" />
     <tag k="name" v="새천년관" />
-  <tag k="db_id" v="6c59c190-2d37-5d84-8f82-60786bec52db" /></node>
+  </node>
   <node id="-29347" action="modify" visible="true" lat="37.5649756619" lon="126.94253414601">
+    <tag k="db_id" v="08fe02a6-9973-53c5-91df-7e3649557014" />
     <tag k="location_type" v="building" />
     <tag k="name" v="상남경영관" />
-  <tag k="db_id" v="08fe02a6-9973-53c5-91df-7e3649557014" /></node>
+  </node>
   <node id="-29348" action="modify" visible="true" lat="37.56474817031" lon="126.94375723332">
+    <tag k="db_id" v="f6c330a5-3093-58c4-a29a-5c43c9cdd494" />
     <tag k="location_type" v="building" />
     <tag k="name" v="미우관" />
-  <tag k="db_id" v="f6c330a5-3093-58c4-a29a-5c43c9cdd494" /></node>
+  </node>
   <node id="-29349" action="modify" visible="true" lat="37.56599192428" lon="126.93736821145">
+    <tag k="db_id" v="60dc78bd-40e5-5f34-ab01-712384fe2c5b" />
     <tag k="location_type" v="building" />
     <tag k="name" v="한경관" />
-  <tag k="db_id" v="60dc78bd-40e5-5f34-ab01-712384fe2c5b" /></node>
+  </node>
   <node id="-29350" action="modify" visible="true" lat="37.56418002523" lon="126.93457733771">
+    <tag k="db_id" v="2727b75a-bed9-52ba-a6cc-c45f8577b55f" />
     <tag k="location_type" v="building" />
     <tag k="name" v="과학관" />
-  <tag k="db_id" v="2727b75a-bed9-52ba-a6cc-c45f8577b55f" /></node>
+  </node>
   <node id="-29351" action="modify" visible="true" lat="37.56333005283" lon="126.93975269526">
+    <tag k="db_id" v="8a8b463c-dff5-592b-944b-af4f8f573745" />
     <tag k="location_type" v="building" />
     <tag k="name" v="중입자치료센터" />
-  <tag k="db_id" v="8a8b463c-dff5-592b-944b-af4f8f573745" /></node>
+  </node>
   <node id="-29352" action="modify" visible="true" lat="37.56217663498" lon="126.93522464596" />
   <node id="-29353" action="modify" visible="true" lat="37.56140533165" lon="126.93497344548" />
   <node id="-29354" action="modify" visible="true" lat="37.56212711028" lon="126.93546022611" />
@@ -268,565 +315,693 @@
   <node id="-29404" action="modify" visible="true" lat="37.56230984138" lon="126.93693385532" />
   <node id="-29405" action="modify" visible="true" lat="37.56235246811" lon="126.93673044732" />
   <node id="-29406" action="modify" visible="true" lat="37.56117837655" lon="126.93553090052">
+    <tag k="db_id" v="7a5fc97a-0203-58d0-b6b5-f2d3f865be31" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="공학원 북측 출입문" />
-  <tag k="db_id" v="7a5fc97a-0203-58d0-b6b5-f2d3f865be31" /></node>
+  </node>
   <node id="-29407" action="modify" visible="true" lat="37.56061600516" lon="126.93534959936">
+    <tag k="db_id" v="54d3fa87-f7c8-5fbe-add0-af58ebd765e0" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="공학원 남측 출입문" />
-  <tag k="db_id" v="54d3fa87-f7c8-5fbe-add0-af58ebd765e0" /></node>
+  </node>
   <node id="-29408" action="modify" visible="true" lat="37.56075433224" lon="126.93606643602">
+    <tag k="db_id" v="4e7acee2-0d1f-5a19-9d29-a27671ceaee5" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="공학원 정문" />
-  <tag k="db_id" v="4e7acee2-0d1f-5a19-9d29-a27671ceaee5" /></node>
+  </node>
   <node id="-29409" action="modify" visible="true" lat="37.56165873789" lon="126.9350627691">
+    <tag k="db_id" v="e1c21f0d-586a-581b-9cd2-4579c6156d23" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="제3공학관 남측 출입문" />
-  <tag k="db_id" v="e1c21f0d-586a-581b-9cd2-4579c6156d23" /></node>
+  </node>
   <node id="-29410" action="modify" visible="true" lat="37.56193463773" lon="126.93511569733">
+    <tag k="db_id" v="32ad84ea-7eb5-5d32-9006-febd6b124c7d" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="제3공학관 북측 출입문" />
-  <tag k="db_id" v="32ad84ea-7eb5-5d32-9006-febd6b124c7d" /></node>
+  </node>
   <node id="-29411" action="modify" visible="true" lat="37.56192342554" lon="126.93582506435">
+    <tag k="db_id" v="08c45dec-b8c1-5664-bd99-a7d7f0145009" />
     <tag k="level" v="2" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="제4공학관 후문2" />
-  <tag k="db_id" v="08c45dec-b8c1-5664-bd99-a7d7f0145009" /></node>
+  </node>
   <node id="-29412" action="modify" visible="true" lat="37.56194514947" lon="126.93583298808">
+    <tag k="db_id" v="c8a97e5a-f07c-5752-a35d-8ecd727a367b" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="제4공학관 후문1" />
-  <tag k="db_id" v="c8a97e5a-f07c-5752-a35d-8ecd727a367b" /></node>
+  </node>
   <node id="-29413" action="modify" visible="true" lat="37.56176809262" lon="126.93663111776">
+    <tag k="db_id" v="3b59e698-bb24-5b44-8e20-e445410c9b90" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="제1공학관 정문" />
-  <tag k="db_id" v="3b59e698-bb24-5b44-8e20-e445410c9b90" /></node>
+  </node>
   <node id="-29414" action="modify" visible="true" lat="37.56220500038" lon="126.93523598532">
+    <tag k="db_id" v="feee91fe-e473-5c16-86fe-866bba226c58" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="제2공학관 남측 출입문" />
-  <tag k="db_id" v="feee91fe-e473-5c16-86fe-866bba226c58" /></node>
+  </node>
   <node id="-29415" action="modify" visible="true" lat="37.56297067152" lon="126.93613916045" />
   <node id="-29416" action="modify" visible="true" lat="37.56302086609" lon="126.93600632167">
+    <tag k="db_id" v="85ce35e9-dd39-5d26-85a1-04403b30a1e4" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="체육관 정문" />
-  <tag k="db_id" v="85ce35e9-dd39-5d26-85a1-04403b30a1e4" /></node>
+  </node>
   <node id="-29417" action="modify" visible="true" lat="37.56232759261" lon="126.93672448813">
+    <tag k="db_id" v="aec210e9-aeb9-541d-8bff-18bc43f1549b" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="제1공학관 북측 출입문" />
-  <tag k="db_id" v="aec210e9-aeb9-541d-8bff-18bc43f1549b" /></node>
+  </node>
   <node id="-29418" action="modify" visible="true" lat="37.5637080415" lon="126.93712938681">
+    <tag k="db_id" v="3841a8ca-fd5b-54e6-9351-db35314cdf4b" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="중앙도서관 정문" />
-  <tag k="db_id" v="3841a8ca-fd5b-54e6-9351-db35314cdf4b" /></node>
+  </node>
   <node id="-29419" action="modify" visible="true" lat="37.56382910547" lon="126.93638340349">
+    <tag k="db_id" v="5ed4fffa-535c-55b1-b5af-1dee208130e6" />
     <tag k="level" v="4" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="연세삼성학술정보원 정문" />
-  <tag k="db_id" v="5ed4fffa-535c-55b1-b5af-1dee208130e6" /></node>
+  </node>
   <node id="-29420" action="modify" visible="true" lat="37.56394243928" lon="126.93582148522">
+    <tag k="db_id" v="6c8979c1-a905-5ac4-88ce-b7bfda971375" />
     <tag k="level" v="4" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="연세삼성학술정보원 후문" />
-  <tag k="db_id" v="6c8979c1-a905-5ac4-88ce-b7bfda971375" /></node>
+  </node>
   <node id="-29421" action="modify" visible="true" lat="37.56416487652" lon="126.93859267309">
+    <tag k="db_id" v="9a776248-62bb-5ddd-acfd-215604d213f0" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="대강당 남측 쪽문" />
-  <tag k="db_id" v="9a776248-62bb-5ddd-acfd-215604d213f0" /></node>
+  </node>
   <node id="-29422" action="modify" visible="true" lat="37.5646129891" lon="126.9387305315">
+    <tag k="db_id" v="d06fe3ed-c971-524c-98a4-3b0fced15738" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="대강당 북측 쪽문" />
-  <tag k="db_id" v="d06fe3ed-c971-524c-98a4-3b0fced15738" /></node>
+  </node>
   <node id="-29423" action="modify" visible="true" lat="37.56442959163" lon="126.93858434447">
+    <tag k="db_id" v="4dcad8b1-cee7-5a6b-afd6-7f1592cb743e" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="대강당 정문" />
-  <tag k="db_id" v="4dcad8b1-cee7-5a6b-afd6-7f1592cb743e" /></node>
+  </node>
   <node id="-29424" action="modify" visible="true" lat="37.56493129242" lon="126.93873327111">
+    <tag k="db_id" v="0550ab27-e79e-53cd-9a07-7c97fb4a9248" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="경영관 정문" />
-  <tag k="db_id" v="0550ab27-e79e-53cd-9a07-7c97fb4a9248" /></node>
+  </node>
   <node id="-29425" action="modify" visible="true" lat="37.56481279195" lon="126.93787909662">
+    <tag k="db_id" v="948527e7-9205-58f2-8f3f-88894c76cd37" />
     <tag k="level" v="2" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="백양관 북측 출입문" />
-  <tag k="db_id" v="948527e7-9205-58f2-8f3f-88894c76cd37" /></node>
+  </node>
   <node id="-29426" action="modify" visible="true" lat="37.56437414275" lon="126.93774893949">
+    <tag k="db_id" v="2d27fe31-93dd-534a-8456-562e13dc1e35" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="백양관 남측 출입문" />
-  <tag k="db_id" v="2d27fe31-93dd-534a-8456-562e13dc1e35" /></node>
+  </node>
   <node id="-29427" action="modify" visible="true" lat="37.56501712714" lon="126.93727355955">
+    <tag k="db_id" v="f0bbc033-1694-5807-83ae-dc759f3a7ccf" />
     <tag k="level" v="4" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="백양관 북측 후문" />
-  <tag k="db_id" v="f0bbc033-1694-5807-83ae-dc759f3a7ccf" /></node>
+  </node>
   <node id="-29428" action="modify" visible="true" lat="37.56483804829" lon="126.93744284391">
+    <tag k="db_id" v="c08d3b00-852a-5b70-ac87-e39839f523c5" />
     <tag k="level" v="2" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="백양관 남측 후문" />
-  <tag k="db_id" v="c08d3b00-852a-5b70-ac87-e39839f523c5" /></node>
+  </node>
   <node id="-29429" action="modify" visible="true" lat="37.56451675705" lon="126.93682220365" />
   <node id="-29430" action="modify" visible="true" lat="37.56475456506" lon="126.93705454235" />
   <node id="-29431" action="modify" visible="true" lat="37.56542961733" lon="126.93729931775">
+    <tag k="db_id" v="d8884593-62f6-5ce9-8dbb-1b0c2bd8bfd0" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="핀슨관 정문" />
-  <tag k="db_id" v="d8884593-62f6-5ce9-8dbb-1b0c2bd8bfd0" /></node>
+  </node>
   <node id="-29432" action="modify" visible="true" lat="37.56476093651" lon="126.937024471">
+    <tag k="db_id" v="ac5658fe-96d0-5f3b-bd3f-70aa5930705b" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="광복관 동측 출입문" />
-  <tag k="db_id" v="ac5658fe-96d0-5f3b-bd3f-70aa5930705b" /></node>
+  </node>
   <node id="-29433" action="modify" visible="true" lat="37.56454347249" lon="126.9368289453">
+    <tag k="db_id" v="f9ea9a4e-ccd7-5b90-8226-210aa270f99c" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="광복관 정문" />
-  <tag k="db_id" v="f9ea9a4e-ccd7-5b90-8226-210aa270f99c" /></node>
+  </node>
   <node id="-29434" action="modify" visible="true" lat="37.56595638482" lon="126.93754637567">
+    <tag k="db_id" v="61003b82-d4af-57b1-98d0-080a8c4fb02f" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="한경관 정문" />
-  <tag k="db_id" v="61003b82-d4af-57b1-98d0-080a8c4fb02f" /></node>
+  </node>
   <node id="-29435" action="modify" visible="true" lat="37.56605445135" lon="126.93829989399">
+    <tag k="db_id" v="31abcbb2-7dcd-55ce-a2e6-bde25fd4a21f" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="스팀슨관 정문" />
-  <tag k="db_id" v="31abcbb2-7dcd-55ce-a2e6-bde25fd4a21f" /></node>
+  </node>
   <node id="-29436" action="modify" visible="true" lat="37.56591056044" lon="126.93896353793">
+    <tag k="db_id" v="55e08e51-9b4b-5229-901f-00520c829266" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="아펜젤러관 정문" />
-  <tag k="db_id" v="55e08e51-9b4b-5229-901f-00520c829266" /></node>
+  </node>
   <node id="-29437" action="modify" visible="true" lat="37.566626009" lon="126.93783716564" />
   <node id="-29438" action="modify" visible="true" lat="37.56664491924" lon="126.93774598869">
+    <tag k="db_id" v="4726ac73-866b-508d-8cea-5ea6a5a2f18b" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="교육과학관 정문" />
-  <tag k="db_id" v="4726ac73-866b-508d-8cea-5ea6a5a2f18b" /></node>
+  </node>
   <node id="-29439" action="modify" visible="true" lat="37.56721934845" lon="126.93797016409">
+    <tag k="db_id" v="f4dac5d9-17c5-5795-bba9-84452434cd29" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="위당관 정문" />
-  <tag k="db_id" v="f4dac5d9-17c5-5795-bba9-84452434cd29" /></node>
+  </node>
   <node id="-29440" action="modify" visible="true" lat="37.56719509028" lon="126.93796152826">
+    <tag k="db_id" v="c7f92980-8abd-5f58-a785-84f8f460ec3c" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="위당관 지하 정문" />
-  <tag k="db_id" v="c7f92980-8abd-5f58-a785-84f8f460ec3c" /></node>
+  </node>
   <node id="-29441" action="modify" visible="true" lat="37.56772323375" lon="126.93842321593">
+    <tag k="db_id" v="9a1cd66b-abe2-5eaa-a001-dcd12ae379c2" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="빌링슬리관 정문" />
-  <tag k="db_id" v="9a1cd66b-abe2-5eaa-a001-dcd12ae379c2" /></node>
+  </node>
   <node id="-29442" action="modify" visible="true" lat="37.567244704" lon="126.93899276619">
+    <tag k="db_id" v="1cfc6c95-c4c3-55f0-a958-2126262e53a9" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="연희관 정문" />
-  <tag k="db_id" v="1cfc6c95-c4c3-55f0-a958-2126262e53a9" /></node>
+  </node>
   <node id="-29443" action="modify" visible="true" lat="37.56743927185" lon="126.93882875321">
+    <tag k="db_id" v="eb27666b-d215-5edf-8d97-29f8b3b9bdbd" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="연희관 서측 후문" />
-  <tag k="db_id" v="eb27666b-d215-5edf-8d97-29f8b3b9bdbd" /></node>
+  </node>
   <node id="-29444" action="modify" visible="true" lat="37.56733515685" lon="126.93922996263">
+    <tag k="db_id" v="59710fff-60f1-54e2-97db-81b54cb16e7d" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="연희관 동측 후문" />
-  <tag k="db_id" v="59710fff-60f1-54e2-97db-81b54cb16e7d" /></node>
+  </node>
   <node id="-29445" action="modify" visible="true" lat="37.56776638086" lon="126.93979422603">
+    <tag k="db_id" v="b18e2416-d0c1-5de8-8d52-c1e02fa2d813" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="대우관 별관 정문" />
-  <tag k="db_id" v="b18e2416-d0c1-5de8-8d52-c1e02fa2d813" /></node>
+  </node>
   <node id="-29446" action="modify" visible="true" lat="37.56771644113" lon="126.93998680436">
+    <tag k="db_id" v="b776f4fe-23b2-52a9-aa59-b8570e62a6db" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="대우관 별관 후문" />
-  <tag k="db_id" v="b776f4fe-23b2-52a9-aa59-b8570e62a6db" /></node>
+  </node>
   <node id="-29447" action="modify" visible="true" lat="37.56822875868" lon="126.93938744488">
+    <tag k="db_id" v="2e964400-15bd-50e4-b5f3-097b9c524a27" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="대우관 정문" />
-  <tag k="db_id" v="2e964400-15bd-50e4-b5f3-097b9c524a27" /></node>
+  </node>
   <node id="-29448" action="modify" visible="true" lat="37.56815813911" lon="126.93937866139">
+    <tag k="db_id" v="ac6b77fa-4425-52df-91ea-3758b42b48ca" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="대우관 지하 정문" />
-  <tag k="db_id" v="ac6b77fa-4425-52df-91ea-3758b42b48ca" /></node>
+  </node>
   <node id="-29449" action="modify" visible="true" lat="37.56696724119" lon="126.93843563286" />
   <node id="-29450" action="modify" visible="true" lat="37.56683746912" lon="126.93828237982" />
   <node id="-29451" action="modify" visible="true" lat="37.56675323183" lon="126.93933338462">
+    <tag k="db_id" v="75b97546-7bc0-511e-978a-59f30618587d" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="성암관 정문" />
-  <tag k="db_id" v="75b97546-7bc0-511e-978a-59f30618587d" /></node>
+  </node>
   <node id="-29452" action="modify" visible="true" lat="37.56631729439" lon="126.9387332663">
+    <tag k="db_id" v="00e22623-3726-5346-9de6-45d39d8407ce" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="언더우드관 정문" />
-  <tag k="db_id" v="00e22623-3726-5346-9de6-45d39d8407ce" /></node>
+  </node>
   <node id="-29453" action="modify" visible="true" lat="37.56645509753" lon="126.93875760139">
+    <tag k="db_id" v="15110b78-ef13-5c33-ab85-70b527d8ca2b" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="언더우드관 후문" />
-  <tag k="db_id" v="15110b78-ef13-5c33-ab85-70b527d8ca2b" /></node>
+  </node>
   <node id="-29454" action="modify" visible="true" lat="37.56349784646" lon="126.93820856783">
+    <tag k="db_id" v="a0b9e226-e8c9-5378-863b-87140db8b5c2" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="학생회관 정문" />
-  <tag k="db_id" v="a0b9e226-e8c9-5378-863b-87140db8b5c2" /></node>
+  </node>
   <node id="-29455" action="modify" visible="true" lat="37.56394979317" lon="126.93855573291">
+    <tag k="db_id" v="0807abf7-bb80-5136-b2e7-88fe1c8ee4db" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="학생회관 고를샘 출입문" />
-  <tag k="db_id" v="0807abf7-bb80-5136-b2e7-88fe1c8ee4db" /></node>
+  </node>
   <node id="-29456" action="modify" visible="true" lat="37.56349892074" lon="126.93498123955">
+    <tag k="db_id" v="081ef699-19af-5351-8a06-1515d5136bb0" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="과학원 정문" />
     <tag k="sub_id" v="2" />
-  <tag k="db_id" v="081ef699-19af-5351-8a06-1515d5136bb0" /></node>
+  </node>
   <node id="-29457" action="modify" visible="true" lat="37.56357742026" lon="126.93491172489">
+    <tag k="db_id" v="7be36b9f-1bc2-504a-8920-e4de94f55915" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="과학원 정문" />
     <tag k="sub_id" v="1" />
-  <tag k="db_id" v="7be36b9f-1bc2-504a-8920-e4de94f55915" /></node>
+  </node>
   <node id="-29458" action="modify" visible="true" lat="37.56381079269" lon="126.93480027768">
+    <tag k="db_id" v="c7700883-cd91-5ca2-827e-feafbbd8775c" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="과학관 남측 출입문" />
-  <tag k="db_id" v="c7700883-cd91-5ca2-827e-feafbbd8775c" /></node>
+  </node>
   <node id="-29459" action="modify" visible="true" lat="37.56411133375" lon="126.93490507145">
+    <tag k="db_id" v="ead8a2e1-6836-5286-b92e-993ea21d93cc" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="과학관 정문" />
-  <tag k="db_id" v="ead8a2e1-6836-5286-b92e-993ea21d93cc" /></node>
+  </node>
   <node id="-29460" action="modify" visible="true" lat="37.56278802454" lon="126.93456900174">
+    <tag k="db_id" v="8c47c82e-124f-5957-ad91-4dd351f98270" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="IBS관 정문" />
-  <tag k="db_id" v="8c47c82e-124f-5957-ad91-4dd351f98270" /></node>
+  </node>
   <node id="-29461" action="modify" visible="true" lat="37.56339100092" lon="126.93812875095" />
   <node id="-29462" action="modify" visible="true" lat="37.56334766852" lon="126.93835838529" />
   <node id="-29463" action="modify" visible="true" lat="37.56338470858" lon="126.93817255967">
+    <tag k="db_id" v="649dbb43-7e0f-5c60-ba0c-08350257f3b4" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="학생회관 맛나샘 출입문" />
-  <tag k="db_id" v="649dbb43-7e0f-5c60-ba0c-08350257f3b4" /></node>
+  </node>
   <node id="-29464" action="modify" visible="true" lat="37.56419415683" lon="126.93792547421" />
   <node id="-29465" action="modify" visible="true" lat="37.56464013838" lon="126.93623663702" />
   <node id="-29466" action="modify" visible="true" lat="37.56456004859" lon="126.93606000246" />
   <node id="-29467" action="modify" visible="true" lat="37.56350468983" lon="126.93638233963" />
   <node id="-29468" action="modify" visible="true" lat="37.56490228458" lon="126.9344357438">
+    <tag k="db_id" v="87e7b272-3d86-5b44-90db-5a5d23db731b" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="삼성관 정문" />
-  <tag k="db_id" v="87e7b272-3d86-5b44-90db-5a5d23db731b" /></node>
+  </node>
   <node id="-29469" action="modify" visible="true" lat="37.56703371473" lon="126.93748708676">
+    <tag k="db_id" v="f8130b26-cf89-55b2-98c2-e69106410eeb" />
     <tag k="level" v="4" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="위당관 쪽문" />
-  <tag k="db_id" v="f8130b26-cf89-55b2-98c2-e69106410eeb" /></node>
+  </node>
   <node id="-29470" action="modify" visible="true" lat="37.56163038862" lon="126.93731234802" />
   <node id="-29471" action="modify" visible="true" lat="37.56180059094" lon="126.93765231013" />
   <node id="-29472" action="modify" visible="true" lat="37.56245521161" lon="126.93785463576" />
   <node id="-29473" action="modify" visible="true" lat="37.56251600016" lon="126.93749554219" />
   <node id="-29474" action="modify" visible="true" lat="37.56207559788" lon="126.93773730716" />
   <node id="-29475" action="modify" visible="true" lat="37.5620699765" lon="126.93777661309">
+    <tag k="db_id" v="732b51c0-0f7f-57de-a27a-cd3fe6d6dc3b" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="백주년기념관 정문" />
-  <tag k="db_id" v="732b51c0-0f7f-57de-a27a-cd3fe6d6dc3b" /></node>
+  </node>
   <node id="-29518" action="modify" visible="true" lat="37.56369201539" lon="126.93846766843" />
   <node id="-29519" action="modify" visible="true" lat="37.56368370088" lon="126.93852079634">
+    <tag k="db_id" v="01397cf0-a86e-5bcb-8565-113d353f9825" />
     <tag k="level" v="1" />
     <tag k="location_type" v="cafeteria" />
     <tag k="name" v="고를샘" />
-  <tag k="db_id" v="01397cf0-a86e-5bcb-8565-113d353f9825" /></node>
+  </node>
   <node id="-29520" action="modify" visible="true" lat="37.56345786112" lon="126.93842995626" />
   <node id="-29521" action="modify" visible="true" lat="37.5631136451" lon="126.93833223436">
+    <tag k="db_id" v="1b27394a-e6f2-5e85-a387-191897184f44" />
     <tag k="level" v="1" />
     <tag k="location_type" v="cafeteria" />
     <tag k="name" v="부를샘" />
-  <tag k="db_id" v="1b27394a-e6f2-5e85-a387-191897184f44" /></node>
+  </node>
   <node id="-29681" action="modify" visible="true" lat="37.56326802427" lon="126.93833773982">
+    <tag k="db_id" v="4af2676e-6133-584e-9655-430a90dd6fe2" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="cafeteria" />
     <tag k="name" v="맛나샘" />
-  <tag k="db_id" v="4af2676e-6133-584e-9655-430a90dd6fe2" /></node>
+  </node>
   <node id="-29742" action="modify" visible="true" lat="37.56594860667" lon="126.93735501533">
+    <tag k="db_id" v="2bb1a942-9df1-5899-b719-8da210638805" />
     <tag k="level" v="2" />
     <tag k="location_type" v="cafeteria" />
     <tag k="name" v="어울샘" />
-  <tag k="db_id" v="2bb1a942-9df1-5899-b719-8da210638805" /></node>
+  </node>
   <node id="-29795" action="modify" visible="true" lat="37.56264723258" lon="126.93767570833" />
   <node id="-29796" action="modify" visible="true" lat="37.56265814285" lon="126.93761514828">
+    <tag k="db_id" v="e91e253a-bb0b-5f58-be7e-418b87b3a850" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="cafe" />
     <tag k="name" v="스타벅스" />
-  <tag k="db_id" v="e91e253a-bb0b-5f58-be7e-418b87b3a850" /></node>
+  </node>
   <node id="-29797" action="modify" visible="true" lat="37.56289162219" lon="126.93741832811">
+    <tag k="db_id" v="f863d758-038f-5a8a-a8ce-c489dfa76c25" />
     <tag k="location_type" v="building" />
     <tag k="name" v="백양누리" />
-  <tag k="db_id" v="f863d758-038f-5a8a-a8ce-c489dfa76c25" /></node>
+  </node>
   <node id="-29798" action="modify" visible="true" lat="37.56283488381" lon="126.93771702707" />
   <node id="-29799" action="modify" visible="true" lat="37.56292326186" lon="126.93726417525">
+    <tag k="db_id" v="ed95f583-eee0-52c8-a908-7cfe75eca6f9" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="store" />
     <tag k="name" v="연세대학교 생활협동조합" />
-  <tag k="db_id" v="ed95f583-eee0-52c8-a908-7cfe75eca6f9" /></node>
+  </node>
   <node id="-29800" action="modify" visible="true" lat="37.56272105179" lon="126.93769108773" />
   <node id="-29803" action="modify" visible="true" lat="37.56270723903" lon="126.93776792478">
+    <tag k="db_id" v="ce85a13e-1ec7-505d-85fa-d4ab12c2abdd" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="cafe" />
     <tag k="name" v="잠바주스" />
-  <tag k="db_id" v="ce85a13e-1ec7-505d-85fa-d4ab12c2abdd" /></node>
+  </node>
   <node id="-29804" action="modify" visible="true" lat="37.56278102856" lon="126.93770501135" />
   <node id="-29805" action="modify" visible="true" lat="37.56276833646" lon="126.93778444115">
+    <tag k="db_id" v="1dfcb576-8e80-5dbe-bf24-725a2a4ac2ac" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="cafe" />
     <tag k="name" v="마호가니 (백양누리)" />
-  <tag k="db_id" v="1dfcb576-8e80-5dbe-bf24-725a2a4ac2ac" /></node>
+  </node>
   <node id="-29806" action="modify" visible="true" lat="37.56289241886" lon="126.93773471989" />
   <node id="-29807" action="modify" visible="true" lat="37.56287743889" lon="126.93781059209">
+    <tag k="db_id" v="56e20e38-932e-5e55-af4a-e20f686078f3" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="restaurant" />
     <tag k="name" v="샐러디" />
-  <tag k="db_id" v="56e20e38-932e-5e55-af4a-e20f686078f3" /></node>
+  </node>
   <node id="-29808" action="modify" visible="true" lat="37.56296493201" lon="126.93775302035" />
   <node id="-29809" action="modify" visible="true" lat="37.56295053743" lon="126.93783399029">
+    <tag k="db_id" v="3ceb3754-2688-565e-96f6-624af95451c1" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="convenience" />
     <tag k="name" v="백양누리 편의점" />
-  <tag k="db_id" v="3ceb3754-2688-565e-96f6-624af95451c1" /></node>
+  </node>
   <node id="-29826" action="modify" visible="true" lat="37.56323311169" lon="126.93791657218">
+    <tag k="db_id" v="fcbe2d1a-7e7e-5532-9c62-18489556a1f6" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="백양누리 에스컬레이터" />
     <tag k="sub_id" v="2" />
-  <tag k="db_id" v="fcbe2d1a-7e7e-5532-9c62-18489556a1f6" /></node>
+  </node>
   <node id="-29836" action="modify" visible="true" lat="37.56325275002" lon="126.93781334482" />
   <node id="-30203" action="modify" visible="true" lat="37.56336431679" lon="126.93827486291" />
   <node id="-30204" action="modify" visible="true" lat="37.56327784343" lon="126.9382482761">
+    <tag k="db_id" v="f8216c54-674e-5cb6-8d93-0204e10905b2" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="cafe" />
     <tag k="name" v="스위츠" />
-  <tag k="db_id" v="f8216c54-674e-5cb6-8d93-0204e10905b2" /></node>
+  </node>
   <node id="-30260" action="modify" visible="true" lat="37.56332076119" lon="126.93839103394" />
   <node id="-30261" action="modify" visible="true" lat="37.56331493747" lon="126.93842720422">
+    <tag k="db_id" v="a6246739-6df9-5bd6-96cb-affea9881e0b" />
     <tag k="level" v="1" />
     <tag k="location_type" v="convenience" />
     <tag k="name" v="하얀샘 (편의점)" />
-  <tag k="db_id" v="a6246739-6df9-5bd6-96cb-affea9881e0b" /></node>
+  </node>
   <node id="-30318" action="modify" visible="true" lat="37.56189724365" lon="126.93595769057" />
   <node id="-30319" action="modify" visible="true" lat="37.5618655072" lon="126.93594798225">
+    <tag k="db_id" v="1307cd01-057d-5c81-9e39-e328c834a1a1" />
     <tag k="level" v="1" />
     <tag k="location_type" v="convenience" />
     <tag k="name" v="한울샘 (편의점)" />
-  <tag k="db_id" v="1307cd01-057d-5c81-9e39-e328c834a1a1" /></node>
+  </node>
   <node id="-30358" action="modify" visible="true" lat="37.56217525214" lon="126.93580642797" />
   <node id="-30359" action="modify" visible="true" lat="37.5622102745" lon="126.93562905452">
+    <tag k="db_id" v="a3a551a0-c868-5bd5-92b1-fbd33a0ea4dd" />
     <tag k="level" v="1" />
     <tag k="location_type" v="cafeteria" />
     <tag k="name" v="한울샘 (스낵)" />
-  <tag k="db_id" v="a3a551a0-c868-5bd5-92b1-fbd33a0ea4dd" /></node>
+  </node>
   <node id="-30401" action="modify" visible="true" lat="37.56191078527" lon="126.93611628767">
+    <tag k="db_id" v="69a04280-e8f0-5284-9836-bfab044e02f2" />
     <tag k="level" v="1" />
     <tag k="location_type" v="cafe" />
     <tag k="name" v="마호가니 (공학관)" />
-  <tag k="db_id" v="69a04280-e8f0-5284-9836-bfab044e02f2" /></node>
+  </node>
   <node id="-30447" action="modify" visible="true" lat="37.56373323842" lon="126.93699210282" />
   <node id="-30448" action="modify" visible="true" lat="37.56360078394" lon="126.93695174043">
+    <tag k="db_id" v="f3d16494-b8bf-5936-bc36-45946bff76ad" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="convenience" />
     <tag k="name" v="솟을샘 (편의점)" />
-  <tag k="db_id" v="f3d16494-b8bf-5936-bc36-45946bff76ad" /></node>
+  </node>
   <node id="-30508" action="modify" visible="true" lat="37.56721529795" lon="126.93792214084" />
   <node id="-30509" action="modify" visible="true" lat="37.56729158855" lon="126.93794754107">
+    <tag k="db_id" v="95599393-8dc2-59c0-9c3f-bae7de225871" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="convenience" />
     <tag k="name" v="청경관 (편의점)" />
-  <tag k="db_id" v="95599393-8dc2-59c0-9c3f-bae7de225871" /></node>
+  </node>
   <node id="-30561" action="modify" visible="true" lat="37.56831326448" lon="126.93930738953">
+    <tag k="db_id" v="ba3d50c4-1bff-5a26-91f3-cd05a0fdc453" />
     <tag k="level" v="-2" />
     <tag k="location_type" v="convenience" />
     <tag k="name" v="상록샘 (편의점)" />
-  <tag k="db_id" v="ba3d50c4-1bff-5a26-91f3-cd05a0fdc453" /></node>
+  </node>
   <node id="-30614" action="modify" visible="true" lat="37.56512818632" lon="126.93439032548" />
   <node id="-30615" action="modify" visible="true" lat="37.56521873848" lon="126.9344797892">
+    <tag k="db_id" v="92959b94-f2ec-5a60-bc44-b062dedd75ed" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="convenience" />
     <tag k="name" v="삼성관 (편의점)" />
-  <tag k="db_id" v="92959b94-f2ec-5a60-bc44-b062dedd75ed" /></node>
+  </node>
   <node id="-30654" action="modify" visible="true" lat="37.56370224753" lon="126.93841275239">
+    <tag k="db_id" v="6691856f-404f-56a2-9422-3d50f1cb8c81" />
     <tag k="level" v="1" />
     <tag k="location_type" v="cafe" />
     <tag k="name" v="트레비앙 (고를샘)" />
-  <tag k="db_id" v="6691856f-404f-56a2-9422-3d50f1cb8c81" /></node>
+  </node>
   <node id="-30714" action="modify" visible="true" lat="37.56360056847" lon="126.93695167364">
+    <tag k="db_id" v="2a1eb334-f91c-52be-99ba-9f472af7bbd0" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="cafe" />
     <tag k="name" v="트레비앙 (솟을샘)" />
-  <tag k="db_id" v="2a1eb334-f91c-52be-99ba-9f472af7bbd0" /></node>
+  </node>
   <node id="-30757" action="modify" visible="true" lat="37.56668147843" lon="126.93743471394">
+    <tag k="db_id" v="045cd84c-a05f-5bf6-8a76-aa8bf1a5da69" />
     <tag k="level" v="1" />
     <tag k="location_type" v="cafe" />
     <tag k="name" v="트레비앙 (종합관)" />
-  <tag k="db_id" v="045cd84c-a05f-5bf6-8a76-aa8bf1a5da69" /></node>
+  </node>
   <node id="-30797" action="modify" visible="true" lat="37.56388649379" lon="126.93946860239" />
   <node id="-30798" action="modify" visible="true" lat="37.56396882803" lon="126.9394974438" />
   <node id="-30799" action="modify" visible="true" lat="37.56384280556" lon="126.94009508441" />
   <node id="-30800" action="modify" visible="true" lat="37.56374732791" lon="126.94006198929" />
   <node id="-30801" action="modify" visible="true" lat="37.56369089088" lon="126.94077137042" />
   <node id="-30802" action="modify" visible="true" lat="37.56378945292" lon="126.9408081915">
+    <tag k="db_id" v="5fe96f43-648f-5853-9647-77bef298bfef" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="음악관B 출입문" />
-  <tag k="db_id" v="5fe96f43-648f-5853-9647-77bef298bfef" /></node>
+  </node>
   <node id="-30803" action="modify" visible="true" lat="37.56394031201" lon="126.94035038719" />
   <node id="-30804" action="modify" visible="true" lat="37.56387960046" lon="126.94065326913" />
   <node id="-30805" action="modify" visible="true" lat="37.56392653927" lon="126.93948282285">
+    <tag k="db_id" v="3edac4c6-7579-5e8c-8a23-7271b208f8fd" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="음악관A 서측 출입문" />
-  <tag k="db_id" v="3edac4c6-7579-5e8c-8a23-7271b208f8fd" /></node>
+  </node>
   <node id="-30806" action="modify" visible="true" lat="37.56379123113" lon="126.94007737973">
+    <tag k="db_id" v="2b180ae5-23ef-533e-8ab0-8a0aabb4c3a8" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="음악관A 동측 출입문" />
-  <tag k="db_id" v="2b180ae5-23ef-533e-8ab0-8a0aabb4c3a8" /></node>
+  </node>
   <node id="-30960" action="modify" visible="true" lat="37.56393985235" lon="126.93964974434" />
   <node id="-30961" action="modify" visible="true" lat="37.56391087566" lon="126.93963960162">
+    <tag k="db_id" v="16212015-c2ce-5f6d-898e-396c1998525b" />
     <tag k="level" v="1" />
     <tag k="location_type" v="cafe" />
     <tag k="name" v="트레비앙 (음악대학)" />
-  <tag k="db_id" v="16212015-c2ce-5f6d-898e-396c1998525b" /></node>
+  </node>
   <node id="-31065" action="modify" visible="true" lat="37.56471529933" lon="126.93695253982">
+    <tag k="db_id" v="4476b5e3-d683-53d8-8a24-d546d5f07237" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="cafe" />
     <tag k="name" v="트레비앙 (광복관)" />
-  <tag k="db_id" v="4476b5e3-d683-53d8-8a24-d546d5f07237" /></node>
+  </node>
   <node id="-31114" action="modify" visible="true" lat="37.56729408761" lon="126.93794793085">
+    <tag k="db_id" v="dbbe775b-24cb-5f38-b22e-d3d8b38253fc" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="cafe" />
     <tag k="name" v="트레비앙 (청경관)" />
-  <tag k="db_id" v="dbbe775b-24cb-5f38-b22e-d3d8b38253fc" /></node>
+  </node>
   <node id="-31140" action="modify" visible="true" lat="37.56509382159" lon="126.93879304079">
+    <tag k="db_id" v="9ef2481e-d6b5-590a-b596-2b5a52c514e9" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="경영관 북측 출입문" />
-  <tag k="db_id" v="9ef2481e-d6b5-590a-b596-2b5a52c514e9" /></node>
+  </node>
   <node id="-31141" action="modify" visible="true" lat="37.56507818401" lon="126.93887021186">
+    <tag k="db_id" v="97782421-e2c9-5ca2-8b7f-4bde07daa000" />
     <tag k="level" v="1" />
     <tag k="location_type" v="cafe" />
     <tag k="name" v="피터팬 1978 (제과)" />
-  <tag k="db_id" v="97782421-e2c9-5ca2-8b7f-4bde07daa000" /></node>
+  </node>
   <node id="-31142" action="modify" visible="true" lat="37.56491643711" lon="126.93881021068" />
   <node id="-31273" action="modify" visible="true" lat="37.56397802628" lon="126.93437978404">
+    <tag k="db_id" v="ed4fd216-644e-54fe-b292-ef9f379725d7" />
     <tag k="level" v="1" />
     <tag k="location_type" v="cafe" />
     <tag k="name" v="블루포트" />
-  <tag k="db_id" v="ed4fd216-644e-54fe-b292-ef9f379725d7" /></node>
+  </node>
   <node id="-31978" action="modify" visible="true" lat="37.56443795356" lon="126.93668682794" />
   <node id="-31979" action="modify" visible="true" lat="37.56449223292" lon="126.93641640339">
+    <tag k="db_id" v="1baca798-f20a-5f81-8222-90f32d8e0e00" />
     <tag k="location_type" v="building" />
     <tag k="name" v="광복관별관" />
-  <tag k="db_id" v="1baca798-f20a-5f81-8222-90f32d8e0e00" /></node>
+  </node>
   <node id="-32036" action="modify" visible="true" lat="37.56447461053" lon="126.9365054192">
+    <tag k="db_id" v="a32334fb-f3fb-5a41-b345-d8a7fc7bfd38" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="광복관별관 정문" />
-  <tag k="db_id" v="a32334fb-f3fb-5a41-b345-d8a7fc7bfd38" /></node>
+  </node>
   <node id="-32089" action="modify" visible="true" lat="37.5638427463" lon="126.93875675542" />
   <node id="-32090" action="modify" visible="true" lat="37.5636106256" lon="126.93894545504" />
   <node id="-32091" action="modify" visible="true" lat="37.56353805382" lon="126.93930735761" />
   <node id="-32092" action="modify" visible="true" lat="37.56353104752" lon="126.93891722659">
+    <tag k="db_id" v="9b5109dd-447b-5f5e-8de1-8ff1deb5f13e" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="루스채플 출입문" />
-  <tag k="db_id" v="9b5109dd-447b-5f5e-8de1-8ff1deb5f13e" /></node>
+  </node>
   <node id="-32159" action="modify" visible="true" lat="37.56311018781" lon="126.93960838957" />
   <node id="-32160" action="modify" visible="true" lat="37.56324435083" lon="126.93964664127" />
   <node id="-32162" action="modify" visible="true" lat="37.56320934545" lon="126.9398222071" />
   <node id="-32163" action="modify" visible="true" lat="37.56337327292" lon="126.93987175329" />
   <node id="-32164" action="modify" visible="true" lat="37.56338949489" lon="126.93979204856" />
   <node id="-32166" action="modify" visible="true" lat="37.56350801394" lon="126.93983136279">
+    <tag k="db_id" v="e104e6db-8bc5-5fde-8639-a11c52df53aa" />
     <tag k="level" v="4" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="중입자치료센터 후문" />
-  <tag k="db_id" v="e104e6db-8bc5-5fde-8639-a11c52df53aa" /></node>
+  </node>
   <node id="-32167" action="modify" visible="true" lat="37.56316656384" lon="126.93962453646">
+    <tag k="db_id" v="e31aae84-8641-52db-8265-75b7643a4108" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="중입자치료센터 정문" />
-  <tag k="db_id" v="e31aae84-8641-52db-8265-75b7643a4108" /></node>
+  </node>
   <node id="-32288" action="modify" visible="true" lat="37.56623255397" lon="126.93769172112" />
   <node id="-32289" action="modify" visible="true" lat="37.56629804298" lon="126.93734482285">
+    <tag k="db_id" v="9ae35b97-f2b8-5dc8-b8ff-62a8458b6df5" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="외솔관 정문" />
-  <tag k="db_id" v="9ae35b97-f2b8-5dc8-b8ff-62a8458b6df5" /></node>
+  </node>
   <node id="-32341" action="modify" visible="true" lat="37.56079319728" lon="126.93586527306" />
   <node id="-32342" action="modify" visible="true" lat="37.56060011883" lon="126.93580250244" />
   <node id="-32343" action="modify" visible="true" lat="37.56056255075" lon="126.93578957735">
+    <tag k="db_id" v="0624fe41-3b10-5d3d-a67a-cb08423f77d8" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="cafe" />
     <tag k="name" v="메가커피 (공학원)" />
-  <tag k="db_id" v="0624fe41-3b10-5d3d-a67a-cb08423f77d8" /></node>
+  </node>
   <node id="-32344" action="modify" visible="true" lat="37.56058645771" lon="126.93585851117">
+    <tag k="db_id" v="461ad820-c5ae-5630-a2e0-40e63cd99820" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="store" />
     <tag k="name" v="알파문구 (공학원)" />
-  <tag k="db_id" v="461ad820-c5ae-5630-a2e0-40e63cd99820" /></node>
+  </node>
   <node id="-32345" action="modify" visible="true" lat="37.56065905261" lon="126.93582166205" />
   <node id="-32346" action="modify" visible="true" lat="37.56064793272" lon="126.93588436136">
+    <tag k="db_id" v="228c64c6-b8ec-5d20-b6bd-f3b86fab09d3" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="cafe" />
     <tag k="name" v="더블랙나인" />
-  <tag k="db_id" v="228c64c6-b8ec-5d20-b6bd-f3b86fab09d3" /></node>
+  </node>
   <node id="-32347" action="modify" visible="true" lat="37.56063338261" lon="126.93581331663" />
   <node id="-32348" action="modify" visible="true" lat="37.56064622508" lon="126.93573787698">
+    <tag k="db_id" v="de654e59-1cd2-5c94-94bd-572850255106" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="restaurant" />
     <tag k="name" v="보스턴수제버거" />
-  <tag k="db_id" v="de654e59-1cd2-5c94-94bd-572850255106" /></node>
+  </node>
   <node id="-32551" action="modify" visible="true" lat="37.56207208869" lon="126.93521548893" />
   <node id="-32554" action="modify" visible="true" lat="37.56200215027" lon="126.9355639582">
+    <tag k="db_id" v="73153e43-8111-58e2-b367-42352a91ddf8" />
     <tag k="level" v="-1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="제2공학관 동측 지하 출입문" />
-  <tag k="db_id" v="73153e43-8111-58e2-b367-42352a91ddf8" /></node>
+  </node>
   <node id="-32624" action="modify" visible="true" lat="37.56305048024" lon="126.93431807538" />
   <node id="-32634" action="modify" visible="true" lat="37.56309509821" lon="126.9341255321">
+    <tag k="db_id" v="ea03d329-772d-561d-92ab-80789c4b875c" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="첨단과학관 출입문" />
-  <tag k="db_id" v="ea03d329-772d-561d-92ab-80789c4b875c" /></node>
+  </node>
   <node id="-32688" action="modify" visible="true" lat="37.56548893033" lon="126.9399212984">
+    <tag k="db_id" v="7b7cd3b9-56ce-5da1-96ab-c634d5a599e5" />
     <tag k="location_type" v="building" />
     <tag k="name" v="노천극장" />
-  <tag k="db_id" v="7b7cd3b9-56ce-5da1-96ab-c634d5a599e5" /></node>
+  </node>
   <node id="-32743" action="modify" visible="true" lat="37.56349664348" lon="126.93800569968">
+    <tag k="db_id" v="9b5d9573-1194-5a70-a185-e2df31ef6061" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="백양누리 에스컬레이터" />
     <tag k="sub_id" v="1" />
-  <tag k="db_id" v="9b5d9573-1194-5a70-a185-e2df31ef6061" /></node>
+  </node>
   <node id="-32750" action="modify" visible="true" lat="37.56353438437" lon="126.93801961761" />
+  <node id="-32764" action="modify" visible="true" lat="37.56579597843" lon="126.93857500168">
+    <tag k="location_type" v="place" />
+    <tag k="name" v="언더우드동상" />
+  <tag k="db_id" v="c9b8101c-f148-54db-bfa4-6b9831c745cb" /></node>
+  <node id="-32846" action="modify" visible="true" lat="37.56639205228" lon="126.9408495673">
+    <tag k="location_type" v="place" />
+    <tag k="name" v="청송대" />
+  <tag k="db_id" v="d60fd756-594f-55b3-b9a6-349673f91dd3" /></node>
+  <node id="-32860" action="modify" visible="true" lat="37.56496303164" lon="126.93641706505">
+    <tag k="location_type" v="place" />
+    <tag k="name" v="동주길" />
+  <tag k="db_id" v="c4e890d0-ed45-5bc5-8388-d63dd3984127" /></node>
+  <node id="-32863" action="modify" visible="true" lat="37.56323593811" lon="126.93742495286">
+    <tag k="location_type" v="place" />
+    <tag k="name" v="연세대학교 독수리상" />
+  <tag k="db_id" v="d4821b1f-0e52-528c-b86c-92c90834d55a" /></node>
+  <node id="-32869" action="modify" visible="true" lat="37.56597443378" lon="126.93491480479">
+    <tag k="location_type" v="place" />
+    <tag k="name" v="언더우드생가" />
+  <tag k="db_id" v="63e0d45a-9a3d-5835-a585-1faba0733c89" /></node>
+  <node id="-32874" action="modify" visible="true" lat="37.56346683381" lon="126.93572947105">
+    <tag k="location_type" v="place" />
+    <tag k="name" v="중앙도서관 옆 벤치" />
+  <tag k="db_id" v="327fca3f-47bb-5cf1-a7ef-3d19b8e80141" /></node>
+  <node id="-32877" action="modify" visible="true" lat="37.56537099851" lon="126.93777890214">
+    <tag k="location_type" v="place" />
+    <tag k="name" v="윤동주문학동산" />
+  <tag k="db_id" v="73b0a232-b329-5ccd-a19e-fc3857840b78" /></node>
   <node id="357823918" action="delete" timestamp="2022-09-28T14:26:47Z" uid="436419" user="wvdp" visible="true" version="8" changeset="126743571" lat="37.56785" lon="126.93188">
     <tag k="bus" v="yes" />
     <tag k="highway" v="bus_stop" />
@@ -3548,10 +3723,11 @@
   <node id="4631198657" timestamp="2017-01-25T04:33:18Z" uid="5185811" user="YongGyu Han" visible="true" version="1" changeset="45460970" lat="37.5632371" lon="126.9357535" />
   <node id="4631198658" timestamp="2017-01-25T04:33:18Z" uid="5185811" user="YongGyu Han" visible="true" version="1" changeset="45460970" lat="37.5632735" lon="126.9357655" />
   <node id="4631198659" action="modify" timestamp="2017-01-25T04:33:18Z" uid="5185811" user="YongGyu Han" visible="true" version="1" changeset="45460970" lat="37.5631736" lon="126.9353327">
+    <tag k="db_id" v="cb35b207-5653-5494-9e2d-1f2f3f432115" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="체육교육관 정문" />
-  <tag k="db_id" v="cb35b207-5653-5494-9e2d-1f2f3f432115" /></node>
+  </node>
   <node id="4631198660" timestamp="2017-01-25T04:33:18Z" uid="5185811" user="YongGyu Han" visible="true" version="1" changeset="45460970" lat="37.5631637" lon="126.9353766" />
   <node id="4631198661" timestamp="2017-01-25T04:33:18Z" uid="5185811" user="YongGyu Han" visible="true" version="1" changeset="45460970" lat="37.5633938" lon="126.9354397" />
   <node id="4631198662" timestamp="2017-01-25T04:33:18Z" uid="5185811" user="YongGyu Han" visible="true" version="1" changeset="45460970" lat="37.563447" lon="126.9353584" />
@@ -3578,10 +3754,11 @@
   <node id="4631203425" timestamp="2017-01-25T04:39:25Z" uid="5185811" user="YongGyu Han" visible="true" version="1" changeset="45461149" lat="37.5624357" lon="126.9353333" />
   <node id="4631203426" timestamp="2017-01-25T04:39:25Z" uid="5185811" user="YongGyu Han" visible="true" version="1" changeset="45461149" lat="37.5624792" lon="126.9352143" />
   <node id="4631203428" action="modify" timestamp="2017-01-25T04:39:25Z" uid="5185811" user="YongGyu Han" visible="true" version="1" changeset="45461149" lat="37.5624503" lon="126.9353241">
+    <tag k="db_id" v="c7810843-6835-58d6-8489-f8e5a1a72339" />
     <tag k="level" v="1" />
     <tag k="location_type" v="waypoint" />
     <tag k="name" v="제2공학관 북측 출입문" />
-  <tag k="db_id" v="c7810843-6835-58d6-8489-f8e5a1a72339" /></node>
+  </node>
   <node id="4631203985" timestamp="2020-05-22T07:53:29Z" uid="11222490" user="landoflulu" visible="true" version="2" changeset="85595024" lat="37.5619331" lon="126.9350102" />
   <node id="4631203987" timestamp="2020-05-22T07:53:29Z" uid="11222490" user="landoflulu" visible="true" version="2" changeset="85595024" lat="37.5619561" lon="126.9350179" />
   <node id="4631203988" timestamp="2020-05-22T07:53:29Z" uid="11222490" user="landoflulu" visible="true" version="2" changeset="85595024" lat="37.5619161" lon="126.9352095" />
@@ -4257,15 +4434,7 @@
   <node id="5095180141" action="delete" timestamp="2017-09-10T15:28:20Z" uid="4933132" user="Carlos Lerchbaum" visible="true" version="1" changeset="51911123" lat="37.5729353" lon="126.9525146" />
   <node id="5095180142" action="delete" timestamp="2017-09-10T15:28:20Z" uid="4933132" user="Carlos Lerchbaum" visible="true" version="1" changeset="51911123" lat="37.5771593" lon="126.9547623" />
   <node id="5095180143" action="delete" timestamp="2023-06-04T10:24:20Z" uid="16548644" user="lemonardo" visible="true" version="2" changeset="136927495" lat="37.5717799" lon="126.9482907" />
-  <node id="5118835980" timestamp="2017-09-21T05:21:35Z" uid="6570529" user="Seoul Libre Maps" visible="true" version="1" changeset="52233264" lat="37.56729" lon="126.9387905">
-    <tag k="amenity" v="bar" />
-    <tag k="description" v="학업에 지친 연세인들을 위한 본격 방탕 교내 비밀 주점. 연희관 1/3 지점 기둥으로 들어오세요" />
-    <tag k="name" v="드렁크짹짹" />
-    <tag k="opening_hours" v="Mo-Su 10:00-22:00" />
-    <tag k="operator" v="김김" />
-    <tag k="outdoor_seating" v="yes" />
-    <tag k="smoking" v="no" />
-  </node>
+  <node id="5118835980" action="modify" timestamp="2017-09-21T05:21:35Z" uid="6570529" user="Seoul Libre Maps" visible="true" version="1" changeset="52233264" lat="37.56729" lon="126.9387905" />
   <node id="5195452058" action="delete" timestamp="2017-10-28T06:26:24Z" uid="6570529" user="Seoul Libre Maps" visible="true" version="1" changeset="53309499" lat="37.5648206" lon="126.9305003" />
   <node id="5195452061" action="delete" timestamp="2017-10-28T06:26:24Z" uid="6570529" user="Seoul Libre Maps" visible="true" version="1" changeset="53309499" lat="37.5647786" lon="126.9307322" />
   <node id="5195452062" action="delete" timestamp="2018-06-11T08:36:01Z" uid="6651133" user="Artemis64" visible="true" version="2" changeset="59732906" lat="37.5657237" lon="126.9300441" />

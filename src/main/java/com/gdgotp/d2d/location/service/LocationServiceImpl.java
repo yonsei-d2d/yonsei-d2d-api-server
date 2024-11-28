@@ -28,7 +28,7 @@ public class LocationServiceImpl implements LocationService {
     }
 
     @Override
-    public Location findLocationById(long id) {
+    public Location findLocationById(String id) {
         var result = locationRepository.findById(id);
         return result.map(LocationMapper::fromEntity).orElse(null);
     }

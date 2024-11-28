@@ -7,8 +7,9 @@ import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.UUID;
 
-public interface LocationJpaRepository extends JpaRepository<LocationEntity, Long> {
+public interface LocationJpaRepository extends JpaRepository<LocationEntity, UUID> {
     List<LocationEntity> findAllByType(String type);
     Optional<LocationEntity> findByName(String name);
     List<LocationEntity> findByNodeIdInAndType(List<Long> ids, String type);

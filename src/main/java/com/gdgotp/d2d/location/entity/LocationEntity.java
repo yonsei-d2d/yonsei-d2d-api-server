@@ -5,6 +5,8 @@ import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.ColumnDefault;
+
+import java.util.List;
 import java.util.UUID;
 
 @Entity(name = "location")
@@ -38,4 +40,7 @@ public class LocationEntity {
     @Column
     @ColumnDefault("0")
     private Integer level;
+
+    @OneToMany(mappedBy = "location", fetch = FetchType.EAGER)
+    private List<TagEntity> tag;
 }

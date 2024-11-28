@@ -11,7 +11,7 @@ public interface LocationRepository {
     public List<LocationEntity> findAll();
     public Optional<LocationEntity> findByName(String name);
     public List<LocationEntity> findAllByType(LocationType type);
-    public Optional<LocationEntity> findById(Long id);
+    public Optional<LocationEntity> findById(String id);
     public List<LocationEntity> findByNodeIdInWithType(List<Long> ids, LocationType type);
     public List<LocationEntity> findNearestFromRoutePathByType(List<Routable> path, LocationType type);
 }

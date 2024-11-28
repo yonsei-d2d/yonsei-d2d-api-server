@@ -15,6 +15,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.UUID;
 
 @Repository
 public class LocationRepositoryImpl implements LocationRepository{
@@ -36,8 +37,8 @@ public class LocationRepositoryImpl implements LocationRepository{
     }
 
     @Override
-    public Optional<LocationEntity> findById(Long id) {
-        return repository.findById(id);
+    public Optional<LocationEntity> findById(String id) {
+        return repository.findById(UUID.fromString(id));
     }
 
     @Override

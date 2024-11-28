@@ -10,7 +10,7 @@ import java.util.List;
 public interface LocationService {
     public List<Location> findAllLocationByType(LocationType locationType);
     public List<Location> findWaypointLocationByNodeIdIn(List<Long> ids);
-    public Location findLocationById(long id);
+    public Location findLocationById(String id);
     public Location findLocationByName(String name);
     public List<LocationResponseDto> searchLocation(String name);
     public List<Location> findNearestLocationFromRoutePathByType(List<Routable> path);

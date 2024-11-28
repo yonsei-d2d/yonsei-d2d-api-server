@@ -10,6 +10,7 @@ public enum LocationType {
     STORE("store"),
     RESTAURANT("restaurant"),
     CAFE("cafe"),
+    PLACE("place"),
     WAYPOINT("waypoint"),
     NONE("none");
 
