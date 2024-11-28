@@ -13,5 +13,7 @@ public interface LocationService {
     public Location findLocationById(String id);
     public Location findLocationByName(String name);
     public List<LocationResponseDto> searchLocation(String name);
-    public List<Location> findNearestLocationFromRoutePathByType(List<Routable> path);
+    public List<Location> findLocationByNameContaining(String name);
+    public List<Location> findNearestLocationFromRoutePathByTag(List<Routable> path, String tag);
+    public List<Location> findAllLocationByTag(String tag);
 }

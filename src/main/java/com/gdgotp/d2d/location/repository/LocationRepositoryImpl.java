@@ -68,4 +68,9 @@ public class LocationRepositoryImpl implements LocationRepository{
         WKTWriter writer = new WKTWriter();
         return writer.write(lineString);
     }
+
+    @Override
+    public List<LocationEntity> findByTag_Tag(String tag) {
+        return repository.findByTag_Tag(tag);
+    }
 }
