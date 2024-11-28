@@ -1,6 +1,7 @@
 package com.gdgotp.d2d.location.service;
 
 import com.gdgotp.d2d.common.enums.LocationType;
+import com.gdgotp.d2d.common.types.Routable;
 import com.gdgotp.d2d.location.dto.LocationResponseDto;
 import com.gdgotp.d2d.location.mapper.LocationMapper;
 import com.gdgotp.d2d.location.model.Location;
@@ -27,7 +28,7 @@ public class LocationServiceImpl implements LocationService {
     }
 
     @Override
-    public Location findLocationById(long id) {
+    public Location findLocationById(String id) {
         var result = locationRepository.findById(id);
         return result.map(LocationMapper::fromEntity).orElse(null);
     }
@@ -51,5 +52,11 @@ public class LocationServiceImpl implements LocationService {
                 .map(LocationMapper::fromAliasEntity)
                 .toList();;
         return result.stream().map(LocationMapper::toLocationResponseDto).toList();
+    }
+
+    @Override
+    public List<Location> findNearestLocationFromRoutePathByType(List<Routable> path) {
+        var result = locationRepository.findNearestFromRoutePathByType(path, LocationType.CAFE);
+        return result.stream().map(LocationMapper::fromEntity).toList();
     }
 }

@@ -40,4 +40,7 @@ public class LocationEntity {
     @Column
     @ColumnDefault("0")
     private Integer level;
+
+    @OneToMany(mappedBy = "location", fetch = FetchType.EAGER)
+    private List<TagEntity> tag;
 }

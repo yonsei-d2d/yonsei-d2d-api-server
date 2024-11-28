@@ -21,7 +21,7 @@ public class RouteRequestDto {
         private RouteType routeType;
         private Long latitude;
         private Long longitude;
-        private Integer locationId;
+        private String locationId;
         private String room;
     }
 
