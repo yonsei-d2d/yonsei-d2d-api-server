@@ -35,6 +35,10 @@ dependencies {
 	testImplementation 'io.projectreactor:reactor-test'
 	runtimeOnly 'org.postgresql:postgresql'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+	// Flyaway
+	implementation 'org.flywaydb:flyway-core:11.0.0'
+	implementation 'org.flywaydb:flyway-database-postgresql'
 }
 
 tasks.named('test') {

@@ -22,7 +22,9 @@ public class OsrmClient {
 
 
     public OsrmRouteResult route(Double startLat, Double startLng, Double destLat, Double destLng) {
-        return requestRoute(String.format("%s%f,%f;%f,%f?annotations=true&alternatives=false&steps=true&exclude=indoor",
+        System.out.println(String.format("%s%f,%f;%f,%f?annotations=true&alternatives=false&steps=true&exclude=indoor",
+                this.endpoint, startLng, startLat, destLng, destLat));
+        return requestRoute(String.format("%s%f,%f;%f,%f?annotations=true&alternatives=false&steps=true&exclude=indoor&geometries=geojson",
                 this.endpoint, startLng, startLat, destLng, destLat));
     }
 }
