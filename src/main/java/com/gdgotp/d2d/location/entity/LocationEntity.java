@@ -5,6 +5,7 @@ import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.ColumnDefault;
+import org.locationtech.jts.geom.Point;
 
 import java.util.List;
 import java.util.UUID;
@@ -43,4 +44,6 @@ public class LocationEntity {
 
     @OneToMany(mappedBy = "location", fetch = FetchType.EAGER)
     private List<TagEntity> tag;
+
+    private Point geom;
 }

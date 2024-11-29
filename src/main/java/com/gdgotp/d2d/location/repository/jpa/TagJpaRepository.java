@@ -11,20 +11,9 @@ import java.util.List;
 public interface TagJpaRepository extends JpaRepository<TagEntity, Long> {
     List<TagEntity> findAllByTag(String tag);
 
-    @Query(value = "SELECT l.id, " +
-            "l.latitude, " +
-            "l.longitude, " +
-            "l.name, " +
-            "l.floor, " +
-            "l.node_id, " +
-            "l.level, " +
-            "l.type, " +
-            "t2.id, " +
-            "t2.tag " +
-            "FROM tag t " +
-            "LEFT JOIN location l ON t.location_id = l.id " +
-            "LEFT JOIN tag t2 ON l.id = t2.location_id " +
+    @Query(value = "SELECT l, t from tag AS t " +
+            "JOIN FETCH t.location AS l " +
             "WHERE t.tag = :tag " +
-            "ORDER BY ST_Distance(l.geom, ST_GeomFromText(:linestring, 4326)) ASC LIMIT 15", nativeQuery = true)
-    List<Object[]> findNearestFromLineStringByTag(@Param("linestring") String linestring, @Param("tag") String tag);
+            "ORDER BY ST_Distance(l.geom, ST_GeomFromText(:linestring, 4326)) ASC LIMIT 15")
+    List<LocationEntity> findNearestFromLineStringByTag(@Param("linestring") String linestring, @Param("tag") String tag);
 }

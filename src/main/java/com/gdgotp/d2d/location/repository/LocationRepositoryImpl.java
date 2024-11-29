@@ -4,9 +4,6 @@ import com.gdgotp.d2d.common.enums.LocationType;
 import com.gdgotp.d2d.common.types.Routable;
 import com.gdgotp.d2d.location.entity.LocationEntity;
 import com.gdgotp.d2d.location.repository.jpa.LocationJpaRepository;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
-import jakarta.persistence.Query;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.LineString;
@@ -57,6 +54,11 @@ public class LocationRepositoryImpl implements LocationRepository{
         return repository.findNearestFromLineStringByType(linestring, type.getValue());
     }
 
+    @Override
+    public List<LocationEntity> findByTag_Tag(String tag) {
+        return repository.findLocationByTag(tag);
+    }
+
     private String routableToLinestring(List<Routable> path) {
         GeometryFactory geometryFactory = new GeometryFactory();
 
@@ -69,8 +71,4 @@ public class LocationRepositoryImpl implements LocationRepository{
         return writer.write(lineString);
     }
 
-    @Override
-    public List<LocationEntity> findByTag_Tag(String tag) {
-        return repository.findLocationByTag(tag);
-    }
 }

@@ -109,9 +109,7 @@ public class OpenAIServiceImpl implements OpenAIService {
                 .withFunction("generateRoute")
                 .withFunction("reportError")
                 .build();
-        System.out.println(openAiChatOptions);
         Prompt prompt = new Prompt(List.of(systemMessage, userMessage), openAiChatOptions);
-        System.out.println(prompt);
         ChatResponse response = new OpenAiChatModel(openAiApi, openAiChatOptions).call(prompt);
 
         if (runState.isMarker()) {

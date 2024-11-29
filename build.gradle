@@ -51,6 +51,7 @@ dependencies {
 
 	// JTS
 	implementation 'org.locationtech.jts:jts-core:1.19.0'
+	implementation 'org.hibernate.orm:hibernate-spatial:6.6.0.Final'
 
 	// Jackson
 	implementation 'com.fasterxml.jackson.core:jackson-core:2.16.1'

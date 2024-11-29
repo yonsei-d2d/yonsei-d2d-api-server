@@ -146,6 +146,9 @@ public class RouteServiceImpl implements RouteService {
         // Generate Text Guide
         List<String> guide = generateGuide(waypoints);
 
+        var a = locationService.findNearestLocationFromRoutePathByTag(result.getPath(), "cafe");
+        a.forEach(e -> System.out.println(e.getName()));
+
         result.setWaypoints(List.of(origin, destination));
         result.setGuide(guide);
         return RouteMapper.toRouteResponseDto(result);
