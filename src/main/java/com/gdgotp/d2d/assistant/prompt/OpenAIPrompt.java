@@ -5,7 +5,7 @@ public class OpenAIPrompt {
             {format}
             You are a AI Map Assistant. You need to figure out what feature is user requesting now.
             If user request to generate a route, set mode to ROUTE.
-            Otherwise, If user request to find a single location, set mode to MARKER.
+            Otherwise, If user request to find a single location or to recommend a location, set mode to MARKER.
             If user's request is irrelevant to map feature, set mode to NONE.
             If mode is NONE, provide a clear message explaining the failure in Korean(한국어) and set as output, else output should be empty string.
             Following is the user's request: {userInput}
