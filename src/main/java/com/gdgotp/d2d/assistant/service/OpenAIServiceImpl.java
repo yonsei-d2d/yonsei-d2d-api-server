@@ -2,6 +2,7 @@ package com.gdgotp.d2d.assistant.service;
 
 import com.gdgotp.d2d.assistant.dto.*;
 import com.gdgotp.d2d.assistant.model.RouteRunState;
+import com.gdgotp.d2d.assistant.prompt.OpenAIPrompt;
 import com.gdgotp.d2d.common.enums.LocationType;
 import com.gdgotp.d2d.location.mapper.LocationMapper;
 import com.gdgotp.d2d.location.model.Location;
@@ -10,6 +11,8 @@ import org.springframework.ai.chat.messages.SystemMessage;
 import org.springframework.ai.chat.messages.UserMessage;
 import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.ai.chat.prompt.Prompt;
+import org.springframework.ai.chat.prompt.PromptTemplate;
+import org.springframework.ai.converter.BeanOutputConverter;
 import org.springframework.ai.model.function.FunctionCallback;
 import org.springframework.ai.openai.OpenAiChatModel;
 import org.springframework.ai.openai.OpenAiChatOptions;
@@ -19,6 +22,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.View;
 
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class OpenAIServiceImpl implements OpenAIService {
@@ -30,17 +34,14 @@ public class OpenAIServiceImpl implements OpenAIService {
     private final AssistantService service;
     private final RouteRunState runState;
 
-    private final List<FunctionCallback> callbacks;
+    private final List<FunctionCallback> routeCallbacks;
+    private final List<FunctionCallback> markerCallbacks;
 
     public OpenAIServiceImpl(AssistantService service, RouteRunState runState, View error) {
         this.service = service;
         this.runState = runState;
 
-        this.callbacks = List.of(
-            FunctionCallback.builder()
-                    .function("setMode", service::setMode)
-                    .inputType(SetModeDto.class)
-                    .build(),
+        this.routeCallbacks = List.of(
             FunctionCallback.builder()
                     .function("findLocationByName", service::findLocationByName)
                     .inputType(FindLocationByNameDto.class)
@@ -50,8 +51,31 @@ public class OpenAIServiceImpl implements OpenAIService {
                     .inputType(FindLocationByTagDto.class)
                     .build(),
             FunctionCallback.builder()
+                    .function("findLocationByRoom", service::findLocationByRoom)
+                    .inputType(FindLocationByRoomDto.class)
+                    .build(),
+            FunctionCallback.builder()
                     .function("generateRoute", service::generateRoute)
                     .inputType(GenerateRouteDto.class)
+                    .build(),
+            FunctionCallback.builder()
+                    .function("reportError", service::reportError)
+                    .inputType(ReportErrorDto.class)
+                    .build()
+        );
+
+        this.markerCallbacks = List.of(
+            FunctionCallback.builder()
+                    .function("findLocationByName", service::findLocationByName)
+                    .inputType(FindLocationByNameDto.class)
+                    .build(),
+            FunctionCallback.builder()
+                    .function("findLocationByTag", service::findLocationByTag)
+                    .inputType(FindLocationByTagDto.class)
+                    .build(),
+            FunctionCallback.builder()
+                    .function("findLocationByRoom", service::findLocationByRoom)
+                    .inputType(FindLocationByRoomDto.class)
                     .build(),
             FunctionCallback.builder()
                     .function("setMarker", service::setMarker)
@@ -60,66 +84,55 @@ public class OpenAIServiceImpl implements OpenAIService {
             FunctionCallback.builder()
                     .function("reportError", service::reportError)
                     .inputType(ReportErrorDto.class)
-                    .build(),
-            FunctionCallback.builder()
-                    .function("findLocationByRoom", service::findLocationByRoom)
-                    .inputType(FindLocationByRoomDto.class)
                     .build()
         );
     }
 
     @Override
-    public AssistantResponseDto queryAssistant(String query) {
-        SystemMessage systemMessage = new SystemMessage(
-                "You are a AI Map Assistant for 연세대학교. You need to control Map engine with given functions." +
-                "Function List: [setMode, findLocationByName, findLocationByTag, findLocationByRoom, generateRoute, setMarker, reportError]" +
-                "First, you need to figure out what feature is user requesting now." +
-                "If user request to generate a route, you must call setMode to set the Map engine ROUTE mode." +
-                "Otherwise if user request to find a single location, you must call setMode to set the Map engine MARKER mode." +
-                "Both Route Mode and Marker Mode, You need Location ID which is UUID type, of user requested locations to run Map Engine." +
-                "Here is the instruction of Route Mode." +
-                "You must find location id of origin and destination first." +
-                "After finding origin and destination then now you can find waypoint ids." +
-                "Waypoint MUST be located between the origin and the destination or not far from them. CALCULATE THE LATLNG WITH UTMOST CAUTION and find the most appropriate waypoint." +
-                "If all waypoint location id are found, call generateRoute function." +
-                "if user did not requested waypoint, then you can call generateRoute with empty list []." +
-                "Here is the instruction fo Marker Mode." +
-                "You must find location id of the most appropriate location." +
-                "If you find location id then call setMarker to set target location." +
-                "Now here is the instruction for you to query Location Id" +
-                "If user requested specific room name, you can find it with findLocationByRoom. Room number is consist of korean and digits. also can contain alphabets." +
-                "If user requested specific building name, you can find it with findLocationByName. you should choose appropriate in the result list." +
-                "Otherwise, if user requested characteristics of location or type of location, you can find it with findLocationByTag function. you should choose appropriate location in the result list." +
-                "If function returned null, try another function just few more time." +
-                "If multiple attempts returned null then DO NOT PROCEED and report error. you can report error with reportError function." +
-                "while reporting error, you must provide error message. clarify where you fail." +
-                "You don't need to explain the route detail. just explain the location name you found." +
-                "example: 과학관에서 스위츠카페를 경유해서 대우관으로 가는 경로를 찾았어요"
-        );
-        UserMessage userMessage = new UserMessage(query);
-        var openAiApi = new OpenAiApi(this.apiKey);
+    public AssistantResponseDto query(String query) {
+        BeanOutputConverter<ModeDto> converter = new BeanOutputConverter<>(ModeDto.class);
+        PromptTemplate promptTemplate = new PromptTemplate(OpenAIPrompt.ModePrompt, Map.of("userInput", query, "format", converter.getFormat()));
+
         var openAiChatOptions = OpenAiChatOptions.builder()
-                .withFunctionCallbacks(callbacks)
+                .withModel(OpenAiApi.ChatModel.GPT_4_O_MINI)
+                .build();
+        Prompt prompt = new Prompt(promptTemplate.createMessage(), openAiChatOptions);
+        ChatResponse response = new OpenAiChatModel(new OpenAiApi(this.apiKey), openAiChatOptions).call(prompt);
+
+        ModeDto output = converter.convert(response.getResult().getOutput().getContent());
+
+        if (output == null) return AssistantResponseDto.builder()
+                .answer("요청을 처리하는 중 문제가 발생하였습니다.")
+                .build();
+
+        System.out.println(output);
+        return switch (output.getMode()) {
+            case MARKER -> processMarker(query);
+            case ROUTE -> processRoute(query);
+            default -> AssistantResponseDto.builder()
+                    .answer(output.getOutput())
+                    .build();
+        };
+    }
+
+    private AssistantResponseDto processRoute(String query) {
+        SystemMessage systemMessage = new SystemMessage(OpenAIPrompt.RoutePrompt);
+        UserMessage userMessage = new UserMessage(query);
+
+        var openAiChatOptions = OpenAiChatOptions.builder()
+                .withFunctionCallbacks(routeCallbacks)
                 .withModel(OpenAiApi.ChatModel.GPT_4_O)
-                .withFunction("setMode")
                 .withFunction("findLocationByName")
                 .withFunction("findLocationByTag")
                 .withFunction("findLocationByRoom")
-                .withFunction("setMarker")
                 .withFunction("generateRoute")
                 .withFunction("reportError")
                 .build();
-        Prompt prompt = new Prompt(List.of(systemMessage, userMessage), openAiChatOptions);
-        ChatResponse response = new OpenAiChatModel(openAiApi, openAiChatOptions).call(prompt);
 
-        if (runState.isMarker()) {
-            Location location = runState.getTargetLocation();
-            if (location.getType() == null) location.setType(LocationType.PLACE);
-            return AssistantResponseDto.builder()
-                    .answer(response.getResult().getOutput().getContent())
-                    .location(LocationMapper.toLocationResponseDto(location))
-                    .build();
-        }
+        Prompt prompt = new Prompt(List.of(systemMessage, userMessage), openAiChatOptions);
+        ChatResponse response = new OpenAiChatModel(new OpenAiApi(this.apiKey), openAiChatOptions).call(prompt);
+
+
         if (runState.getRouteResult() == null) {
             var errorMessage = runState.getError() == null ? "요청을 이해하지 못했어요. 다시 시도해주세요." : runState.getError();
             return AssistantResponseDto.builder()
@@ -129,6 +142,36 @@ public class OpenAIServiceImpl implements OpenAIService {
         return AssistantResponseDto.builder()
                 .answer(response.getResult().getOutput().getContent())
                 .route(RouteMapper.toRouteResponseDto(runState.getRouteResult()))
+                .build();
+    }
+
+    private AssistantResponseDto processMarker(String query) {
+        SystemMessage systemMessage = new SystemMessage(OpenAIPrompt.MarkerPrompt);
+        UserMessage userMessage = new UserMessage(query);
+
+        var openAiChatOptions = OpenAiChatOptions.builder()
+                .withFunctionCallbacks(markerCallbacks)
+                .withModel(OpenAiApi.ChatModel.GPT_4_O)
+                .withFunction("findLocationByName")
+                .withFunction("findLocationByTag")
+                .withFunction("findLocationByRoom")
+                .withFunction("setMarker")
+                .withFunction("reportError")
+                .build();
+
+        Prompt prompt = new Prompt(List.of(systemMessage, userMessage), openAiChatOptions);
+        ChatResponse response = new OpenAiChatModel(new OpenAiApi(this.apiKey), openAiChatOptions).call(prompt);
+
+
+        if (runState.getTargetLocation() == null) {
+            var errorMessage = runState.getError() == null ? "요청을 이해하지 못했어요. 다시 시도해주세요." : runState.getError();
+            return AssistantResponseDto.builder()
+                    .answer(errorMessage)
+                    .build();
+        }
+        return AssistantResponseDto.builder()
+                .answer(response.getResult().getOutput().getContent())
+                .location(LocationMapper.toLocationResponseDto(runState.getTargetLocation()))
                 .build();
     }
 }

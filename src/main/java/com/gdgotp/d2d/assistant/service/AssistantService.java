@@ -18,13 +18,13 @@ public class AssistantService {
     private final RouteRunState runState;
     private final LocationService locationService;
     private final RouteService routeService;
-    private final RoomService rooomService;
+    private final RoomService roomService;
 
     public AssistantService(RouteRunState runState, LocationService locationService, RouteService routeService, RoomService roomService) {
         this.runState = runState;
         this.locationService = locationService;
         this.routeService = routeService;
-        this.rooomService = roomService;
+        this.roomService = roomService;
     }
 
     public List<Location> findLocationByName(FindLocationByNameDto input) {
@@ -38,14 +38,13 @@ public class AssistantService {
         System.out.println("findLocationByTag");
         var result = locationService.findAllLocationByTag(input.getTag());
         result.forEach(runState::putLocation);
-        result.forEach(e -> System.out.println(e.getType()));
         return result.subList(0, Math.min(10, result.size()));
     }
 
     public Location findLocationByRoom(FindLocationByRoomDto input) {
         System.out.println("findLocationByRoom");
         try {
-            var result = rooomService.findLocationByRoom(input.getRoom());
+            var result = roomService.findLocationByRoom(input.getRoom());
             runState.putLocation(result);
             return result;
         } catch (Exception e) {
@@ -75,21 +74,9 @@ public class AssistantService {
         return "reported";
     }
 
-    public String setMode(SetModeDto input) {
-        if (input.getMode().equalsIgnoreCase("route")) {
-            runState.setRoute(true);
-            System.out.println("Map Engine is now on ROUTE mode");
-            return "Map Engine is now on ROUTE mode";
-        } else if (input.getMode().equalsIgnoreCase("marker")) {
-            runState.setMarker(true);
-            System.out.println("Map Engine is now on MARKER mode");
-            return "Map Engine is now on MARKER mode";
-        }
-        return "ERROR";
-    }
-
     public String setMarker(SetMarkerDto input) {
-        runState.setTargetLocation(locationService.findLocationById(input.getLocationId()));
-        return "location id set completed";
+        var location = runState.getLocation(input.getLocationId());
+        runState.setTargetLocation(location);
+        return "Marker set to " + location.getName();
     }
 }

@@ -18,6 +18,6 @@ public class AssistantController {
     @PostMapping("")
     @ResponseBody
     public AssistantResponseDto query(@RequestBody AssistantRequestDto input) {
-        return service.queryAssistant(input.getQuery());
+        return service.query(input.getQuery());
     }
 }
