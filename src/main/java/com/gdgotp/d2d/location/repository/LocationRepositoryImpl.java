@@ -71,6 +71,6 @@ public class LocationRepositoryImpl implements LocationRepository{
 
     @Override
     public List<LocationEntity> findByTag_Tag(String tag) {
-        return repository.findByTag_Tag(tag);
+        return repository.findLocationByTag(tag);
     }
 }

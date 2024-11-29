@@ -4,6 +4,7 @@ import com.gdgotp.d2d.assistant.dto.*;
 import com.gdgotp.d2d.assistant.model.RouteRunState;
 import com.gdgotp.d2d.location.model.Location;
 import com.gdgotp.d2d.location.service.LocationService;
+import com.gdgotp.d2d.route.service.RoomService;
 import com.gdgotp.d2d.route.service.RouteService;
 import org.springframework.stereotype.Service;
 
@@ -17,11 +18,13 @@ public class AssistantService {
     private final RouteRunState runState;
     private final LocationService locationService;
     private final RouteService routeService;
+    private final RoomService rooomService;
 
-    public AssistantService(RouteRunState runState, LocationService locationService, RouteService routeService) {
+    public AssistantService(RouteRunState runState, LocationService locationService, RouteService routeService, RoomService roomService) {
         this.runState = runState;
         this.locationService = locationService;
         this.routeService = routeService;
+        this.rooomService = roomService;
     }
 
     public List<Location> findLocationByName(FindLocationByNameDto input) {
@@ -35,7 +38,19 @@ public class AssistantService {
         System.out.println("findLocationByTag");
         var result = locationService.findAllLocationByTag(input.getTag());
         result.forEach(runState::putLocation);
+        result.forEach(e -> System.out.println(e.getType()));
         return result.subList(0, Math.min(10, result.size()));
+    }
+
+    public Location findLocationByRoom(FindLocationByRoomDto input) {
+        System.out.println("findLocationByRoom");
+        try {
+            var result = rooomService.findLocationByRoom(input.getRoom());
+            runState.putLocation(result);
+            return result;
+        } catch (Exception e) {
+            return null;
+        }
     }
 
     public List<String> generateRoute(GenerateRouteDto input) {

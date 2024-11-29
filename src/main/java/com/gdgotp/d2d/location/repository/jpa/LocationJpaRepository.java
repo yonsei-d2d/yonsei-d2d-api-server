@@ -18,4 +18,7 @@ public interface LocationJpaRepository extends JpaRepository<LocationEntity, UUI
 
     @Query(value = "SELECT * FROM location WHERE location.type = :type ORDER BY ST_Distance(location.geom, ST_GeomFromText(:linestring, 4326)) ASC LIMIT 10", nativeQuery = true)
     List<LocationEntity> findNearestFromLineStringByType(@Param("linestring") String linestring, @Param("type") String type);
+
+    @Query(value = "SELECT DISTINCT l FROM location l JOIN FETCH l.tag t WHERE t.tag = :tag")
+    List<LocationEntity> findLocationByTag( @Param("tag") String tag);
 }

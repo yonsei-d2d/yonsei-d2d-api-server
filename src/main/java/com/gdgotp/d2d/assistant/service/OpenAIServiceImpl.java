@@ -60,6 +60,10 @@ public class OpenAIServiceImpl implements OpenAIService {
             FunctionCallback.builder()
                     .function("reportError", service::reportError)
                     .inputType(ReportErrorDto.class)
+                    .build(),
+            FunctionCallback.builder()
+                    .function("findLocationByRoom", service::findLocationByRoom)
+                    .inputType(FindLocationByRoomDto.class)
                     .build()
         );
     }
@@ -67,8 +71,8 @@ public class OpenAIServiceImpl implements OpenAIService {
     @Override
     public AssistantResponseDto queryAssistant(String query) {
         SystemMessage systemMessage = new SystemMessage(
-                "You are a AI Map Assistant. You need to control Map engine with given functions." +
-                "Function List: [setMode, findLocationByName, findLocationByTag, generateRoute, setMarker, reportError]" +
+                "You are a AI Map Assistant for 연세대학교. You need to control Map engine with given functions." +
+                "Function List: [setMode, findLocationByName, findLocationByTag, findLocationByRoom, generateRoute, setMarker, reportError]" +
                 "First, you need to figure out what feature is user requesting now." +
                 "If user request to generate a route, you must call setMode to set the Map engine ROUTE mode." +
                 "Otherwise if user request to find a single location, you must call setMode to set the Map engine MARKER mode." +
@@ -83,11 +87,12 @@ public class OpenAIServiceImpl implements OpenAIService {
                 "You must find location id of the most appropriate location." +
                 "If you find location id then call setMarker to set target location." +
                 "Now here is the instruction for you to query Location Id" +
+                "If user requested specific room name, you can find it with findLocationByRoom. Room number is consist of korean and digits. also can contain alphabets." +
                 "If user requested specific building name, you can find it with findLocationByName. you should choose appropriate in the result list." +
                 "Otherwise, if user requested characteristics of location or type of location, you can find it with findLocationByTag function. you should choose appropriate location in the result list." +
                 "If function returned null, try another function just few more time." +
                 "If multiple attempts returned null then DO NOT PROCEED and report error. you can report error with reportError function." +
-                "while reporting error, you must provide error message." +
+                "while reporting error, you must provide error message. clarify where you fail." +
                 "You don't need to explain the route detail. just explain the location name you found." +
                 "example: 과학관에서 스위츠카페를 경유해서 대우관으로 가는 경로를 찾았어요"
         );
@@ -99,6 +104,7 @@ public class OpenAIServiceImpl implements OpenAIService {
                 .withFunction("setMode")
                 .withFunction("findLocationByName")
                 .withFunction("findLocationByTag")
+                .withFunction("findLocationByRoom")
                 .withFunction("setMarker")
                 .withFunction("generateRoute")
                 .withFunction("reportError")
