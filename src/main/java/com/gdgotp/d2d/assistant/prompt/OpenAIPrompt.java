@@ -28,7 +28,13 @@ public class OpenAIPrompt {
             Use findLocationByRoom for room names/numbers (Korean, digits, or alphabets).
             Use findLocationByName for building names.
             Use findLocationByTag for location types or characteristics.
-            If a function returns null, retry briefly with other functions. If unsuccessful, use reportError with a clear failure message.
+            
+            If a function returns null, retry briefly with other input and functions.
+            You are allowed to add or remove spaces at appropriate positions and retry search.
+            Example: 중앙 도서관 → 중앙도서관, 제4 공학관 -> 제4공학관
+            The user may also input building names in abbreviated form. You are allowed to modify these abbreviations according to your background knowledge.
+            Example: 중도 → 중앙도서관, 백누 → 백양누리
+            If several attempts fail, use reportError with a clear failure message.
 
             Error Handling:
 
@@ -59,7 +65,13 @@ public class OpenAIPrompt {
             Use findLocationByRoom for room names/numbers (Korean, digits, or alphabets).
             Use findLocationByName for building names.
             Use findLocationByTag for location types or characteristics.
-            If a function returns null, retry briefly with other functions. If unsuccessful, use reportError with a clear failure message.
+            
+            If a function returns null, retry briefly with other input and functions.
+            You are allowed to add or remove spaces at appropriate positions and retry search.
+            Example: 중앙 도서관 → 중앙도서관, 제4 공학관 -> 제4공학관
+            The user may also input building names in abbreviated form. You are allowed to modify these abbreviations according to your background knowledge.
+            Example: 중도 → 중앙도서관, 백누 → 백양누리
+            If several attempts fail, use reportError with a clear failure message.
 
             Error Handling:
 
