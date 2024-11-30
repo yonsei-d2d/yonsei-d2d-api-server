@@ -28,21 +28,18 @@ public class AssistantService {
     }
 
     public List<Location> findLocationByName(FindLocationByNameDto input) {
-        System.out.println("findLocationByName");
         var result = locationService.findLocationByNameContaining(input.getName());
         result.forEach(runState::putLocation);
         return result.subList(0, Math.min(3, result.size()));
     }
 
     public List<Location> findLocationByTag(FindLocationByTagDto input) {
-        System.out.println("findLocationByTag");
         var result = locationService.findAllLocationByTag(input.getTag());
         result.forEach(runState::putLocation);
         return result.subList(0, Math.min(10, result.size()));
     }
 
     public Location findLocationByRoom(FindLocationByRoomDto input) {
-        System.out.println("findLocationByRoom");
         try {
             var result = roomService.findLocationByRoom(input.getRoom());
             runState.putLocation(result);
@@ -53,8 +50,6 @@ public class AssistantService {
     }
 
     public List<String> generateRoute(GenerateRouteDto input) {
-        System.out.println("generateRoute");
-        System.out.println("input: " + input.toString());
         Location origin = runState.getLocation(input.getOriginId());
         Location destination = runState.getLocation(input.getDestinationId());
         List<Location> waypoints = input.getWaypointIds().stream().map(runState::getLocation).toList();
