@@ -146,7 +146,8 @@ public class RouteServiceImpl implements RouteService {
         // Generate Text Guide
         List<String> guide = generateGuide(waypoints);
 
-        result.setWaypoints(List.of(origin, destination));
+        result.setWaypoints(waypoints);
+        result.setStopover(List.of(origin, destination));
         result.setGuide(guide);
         return RouteMapper.toRouteResponseDto(result);
     }
@@ -169,6 +170,7 @@ public class RouteServiceImpl implements RouteService {
         // Generate Text Guide
         List<String> guide = generateGuide(waypoints);
 
+        result.setStopover(waypoints);
         result.setWaypoints(waypoints);
         result.setGuide(guide);
         return result;

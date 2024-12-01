@@ -17,5 +17,6 @@ public class Route {
     private double distance;
     private List<Long> nodes;
     private List<Location> waypoints;
+    private List<Location> stopover;
     private List<String> guide;
 }
