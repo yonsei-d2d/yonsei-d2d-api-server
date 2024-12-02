@@ -12,6 +12,7 @@ public enum LocationType {
     CAFE("cafe"),
     PLACE("place"),
     WAYPOINT("waypoint"),
+    FACILITY("facility"),
     NONE("none");
 
     private final String value;

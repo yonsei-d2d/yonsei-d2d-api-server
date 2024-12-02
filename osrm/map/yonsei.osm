@@ -975,33 +975,101 @@
   </node>
   <node id="-32750" action="modify" visible="true" lat="37.56353438437" lon="126.93801961761" />
   <node id="-32764" action="modify" visible="true" lat="37.56579597843" lon="126.93857500168">
+    <tag k="db_id" v="c9b8101c-f148-54db-bfa4-6b9831c745cb" />
     <tag k="location_type" v="place" />
     <tag k="name" v="언더우드동상" />
-  <tag k="db_id" v="c9b8101c-f148-54db-bfa4-6b9831c745cb" /></node>
+  </node>
   <node id="-32846" action="modify" visible="true" lat="37.56639205228" lon="126.9408495673">
+    <tag k="db_id" v="d60fd756-594f-55b3-b9a6-349673f91dd3" />
     <tag k="location_type" v="place" />
     <tag k="name" v="청송대" />
-  <tag k="db_id" v="d60fd756-594f-55b3-b9a6-349673f91dd3" /></node>
+  </node>
   <node id="-32860" action="modify" visible="true" lat="37.56496303164" lon="126.93641706505">
+    <tag k="db_id" v="c4e890d0-ed45-5bc5-8388-d63dd3984127" />
     <tag k="location_type" v="place" />
     <tag k="name" v="동주길" />
-  <tag k="db_id" v="c4e890d0-ed45-5bc5-8388-d63dd3984127" /></node>
+  </node>
   <node id="-32863" action="modify" visible="true" lat="37.56323593811" lon="126.93742495286">
+    <tag k="db_id" v="d4821b1f-0e52-528c-b86c-92c90834d55a" />
     <tag k="location_type" v="place" />
     <tag k="name" v="연세대학교 독수리상" />
-  <tag k="db_id" v="d4821b1f-0e52-528c-b86c-92c90834d55a" /></node>
+  </node>
   <node id="-32869" action="modify" visible="true" lat="37.56597443378" lon="126.93491480479">
+    <tag k="db_id" v="63e0d45a-9a3d-5835-a585-1faba0733c89" />
     <tag k="location_type" v="place" />
     <tag k="name" v="언더우드생가" />
-  <tag k="db_id" v="63e0d45a-9a3d-5835-a585-1faba0733c89" /></node>
+  </node>
   <node id="-32874" action="modify" visible="true" lat="37.56346683381" lon="126.93572947105">
+    <tag k="db_id" v="327fca3f-47bb-5cf1-a7ef-3d19b8e80141" />
     <tag k="location_type" v="place" />
     <tag k="name" v="중앙도서관 옆 벤치" />
-  <tag k="db_id" v="327fca3f-47bb-5cf1-a7ef-3d19b8e80141" /></node>
+  </node>
   <node id="-32877" action="modify" visible="true" lat="37.56537099851" lon="126.93777890214">
+    <tag k="db_id" v="73b0a232-b329-5ccd-a19e-fc3857840b78" />
     <tag k="location_type" v="place" />
     <tag k="name" v="윤동주문학동산" />
-  <tag k="db_id" v="73b0a232-b329-5ccd-a19e-fc3857840b78" /></node>
+  </node>
+  <node id="-32884" action="modify" visible="true" lat="37.56337517545" lon="126.93678224418" />
+  <node id="-32885" action="modify" visible="true" lat="37.56340155665" lon="126.93678934887">
+    <tag k="db_id" v="17c97e28-c18e-549d-9bb2-c3acd2fb849e" />
+    <tag k="level=1" v="footway" />
+    <tag k="location_type" v="waypoint" />
+    <tag k="name" v="중앙도서관 남측 출입문" />
+  </node>
+  <node id="-32958" action="modify" visible="true" lat="37.56360047457" lon="126.93843639546" />
+  <node id="-32959" action="modify" visible="true" lat="37.56361027239" lon="126.93838403962">
+    <tag k="db_id" v="5f9cd717-4206-5e6c-aa52-c28b073febca" />
+    <tag k="level" v="1" />
+    <tag k="location_type" v="store" />
+    <tag k="name" v="꽃누리샘" />
+  </node>
+  <node id="-33013" action="modify" visible="true" lat="37.56388526737" lon="126.93828606958" />
+  <node id="-33014" action="modify" visible="true" lat="37.56386129582" lon="126.93841762674" />
+  <node id="-33015" action="modify" visible="true" lat="37.56381641594" lon="126.93840035336">
+    <tag k="db_id" v="774327af-7d05-5aa7-b7bd-bf974e35b41e" />
+    <tag k="level" v="-1" />
+    <tag k="location_type" v="facility" />
+    <tag k="name" v="우리은행" />
+  </node>
+  <node id="-33016" action="modify" visible="true" lat="37.56389552622" lon="126.93843106159">
+    <tag k="db_id" v="0cec7b58-75e8-5ff2-b517-91988ae54d5b" />
+    <tag k="level" v="-1" />
+    <tag k="location_type" v="facility" />
+    <tag k="name" v="우체국" />
+  </node>
+  <node id="-33019" action="modify" visible="true" lat="37.56387845178" lon="126.93832606536">
+    <tag k="db_id" v="87ce5426-af61-57eb-88c6-90ea44af21c4" />
+    <tag k="level" v="-1" />
+    <tag k="location_type" v="waypoint" />
+    <tag k="name" v="학생회관 우체국 출입문" />
+  </node>
+  <node id="-33204" action="modify" visible="true" lat="37.56403215946" lon="126.93452768708" />
+  <node id="-33205" action="modify" visible="true" lat="37.56405222595" lon="126.93441883863">
+    <tag k="level" v="1" />
+    <tag k="location_type" v="convenience" />
+    <tag k="name" v="세븐일레븐 연세대과학관점 (편의점)" />
+  <tag k="db_id" v="6c52c162-9225-50e0-8d68-8a71a7dcb70f" /></node>
+  <node id="-33271" action="modify" visible="true" lat="37.56581867868" lon="126.93713014699" />
+  <node id="-33278" action="modify" visible="true" lat="37.56588586485" lon="126.93677582723">
+    <tag k="db_id" v="efb86b19-9060-5859-9dd1-ee62a0651ef6" />
+    <tag k="level" v="1" />
+    <tag k="location_type" v="waypoint" />
+    <tag k="name" v="원두우신학관 정문" />
+  </node>
+  <node id="-33349" action="modify" visible="true" lat="37.56205342496" lon="126.93790681339" />
+  <node id="-33350" action="modify" visible="true" lat="37.5621763807" lon="126.93794260787">
+    <tag k="db_id" v="0bb96044-64c1-5d88-87f1-ebb50ccc1bca" />
+    <tag k="level" v="2" />
+    <tag k="location_type" v="facility" />
+    <tag k="name" v="백주년기념관 박물관" />
+  </node>
+  <node id="-33410" action="modify" visible="true" lat="37.56321067529" lon="126.93615584633" />
+  <node id="-33411" action="modify" visible="true" lat="37.56308159984" lon="126.93677953371">
+    <tag k="db_id" v="110194e6-d9f2-5f97-9d5c-58d62a3bf6f1" />
+    <tag k="level" v="1" />
+    <tag k="location_type" v="place" />
+    <tag k="name" v="런어스 스튜디오" />
+  </node>
   <node id="357823918" action="delete" timestamp="2022-09-28T14:26:47Z" uid="436419" user="wvdp" visible="true" version="8" changeset="126743571" lat="37.56785" lon="126.93188">
     <tag k="bus" v="yes" />
     <tag k="highway" v="bus_stop" />
@@ -3498,7 +3566,7 @@
   <node id="4427891404" timestamp="2016-10-02T16:23:14Z" uid="4636052" user="Goh4ug" visible="true" version="1" changeset="42586306" lat="37.5639261" lon="126.9392992" />
   <node id="4427891405" timestamp="2016-10-02T16:23:14Z" uid="4636052" user="Goh4ug" visible="true" version="1" changeset="42586306" lat="37.5639468" lon="126.9413636" />
   <node id="4427891406" timestamp="2016-10-02T16:23:14Z" uid="4636052" user="Goh4ug" visible="true" version="1" changeset="42586306" lat="37.5639804" lon="126.938898" />
-  <node id="4427891407" action="modify" timestamp="2016-10-02T16:23:14Z" uid="4636052" user="Goh4ug" visible="true" version="1" changeset="42586306" lat="37.56403056306" lon="126.93834690122" />
+  <node id="4427891407" action="modify" timestamp="2016-10-02T16:23:14Z" uid="4636052" user="Goh4ug" visible="true" version="1" changeset="42586306" lat="37.56402371699" lon="126.93833058747" />
   <node id="4427891408" timestamp="2016-10-02T16:23:14Z" uid="4636052" user="Goh4ug" visible="true" version="1" changeset="42586306" lat="37.5640734" lon="126.9383827" />
   <node id="4427891409" timestamp="2016-10-02T16:23:14Z" uid="4636052" user="Goh4ug" visible="true" version="1" changeset="42586306" lat="37.5641238" lon="126.9418399" />
   <node id="4427891410" timestamp="2016-10-02T16:23:14Z" uid="4636052" user="Goh4ug" visible="true" version="1" changeset="42586306" lat="37.5641326" lon="126.9414461" />
@@ -9559,8 +9627,6 @@
     <tag k="highway" v="footway" />
   </way>
   <way id="-3515" action="modify" visible="true">
-    <nd ref="-29289" />
-    <nd ref="4427891407" />
     <nd ref="4427891408" />
     <nd ref="-29291" />
     <nd ref="4432623647" />
@@ -9637,6 +9703,7 @@
   <way id="-3527" action="modify" visible="true">
     <nd ref="-29455" />
     <nd ref="-29518" />
+    <nd ref="-32958" />
     <nd ref="-29290" />
     <nd ref="-29454" />
     <tag k="highway" v="footway" />
@@ -9700,6 +9767,7 @@
     <nd ref="-29458" />
     <nd ref="-29362" />
     <nd ref="-29363" />
+    <nd ref="-33204" />
     <nd ref="-29350" />
     <tag k="highway" v="footway" />
   </way>
@@ -10207,6 +10275,7 @@
   </way>
   <way id="-3631" action="modify" visible="true">
     <nd ref="-29475" />
+    <nd ref="-33349" />
     <nd ref="-29323" />
     <tag k="highway" v="footway" />
   </way>
@@ -10494,6 +10563,73 @@
   <way id="-5343" action="modify" visible="true">
     <nd ref="-29339" />
     <nd ref="-29451" />
+    <tag k="highway" v="footway" />
+  </way>
+  <way id="-5558" action="modify" visible="true">
+    <nd ref="-29287" />
+    <nd ref="-32885" />
+    <tag k="highway" v="footway" />
+  </way>
+  <way id="-5563" action="modify" visible="true">
+    <nd ref="-32885" />
+    <nd ref="-32884" />
+    <tag k="highway" v="footway" />
+  </way>
+  <way id="-5616" action="modify" visible="true">
+    <nd ref="-32958" />
+    <nd ref="-32959" />
+    <tag k="highway" v="footway" />
+  </way>
+  <way id="-5659" action="modify" visible="true">
+    <nd ref="-29289" />
+    <nd ref="-33013" />
+    <nd ref="4427891407" />
+    <tag k="highway" v="footway" />
+  </way>
+  <way id="-5662" action="modify" visible="true">
+    <nd ref="4427891407" />
+    <nd ref="4427891408" />
+    <tag k="highway" v="steps" />
+  </way>
+  <way id="-5669" action="modify" visible="true">
+    <nd ref="-33019" />
+    <nd ref="-33014" />
+    <nd ref="-33015" />
+    <tag k="highway" v="footway" />
+  </way>
+  <way id="-5671" action="modify" visible="true">
+    <nd ref="-33014" />
+    <nd ref="-33016" />
+    <tag k="highway" v="footway" />
+  </way>
+  <way id="-5701" action="modify" visible="true">
+    <nd ref="-33013" />
+    <nd ref="-33019" />
+    <tag k="highway" v="footway" />
+  </way>
+  <way id="-5727" action="modify" visible="true">
+    <nd ref="-33204" />
+    <nd ref="-33205" />
+    <tag k="highway" v="footway" />
+  </way>
+  <way id="-5755" action="modify" visible="true">
+    <nd ref="-29331" />
+    <nd ref="-33278" />
+    <tag k="highway" v="footway" />
+  </way>
+  <way id="-5785" action="modify" visible="true">
+    <nd ref="-33278" />
+    <nd ref="-33271" />
+    <tag k="highway" v="footway" />
+  </way>
+  <way id="-5807" action="modify" visible="true">
+    <nd ref="-33349" />
+    <nd ref="-33350" />
+    <tag k="highway" v="footway" />
+  </way>
+  <way id="-5847" action="modify" visible="true">
+    <nd ref="-33410" />
+    <nd ref="-33411" />
     <tag k="highway" v="footway" />
   </way>
   <way id="37401920" action="delete" timestamp="2023-06-14T18:05:53Z" uid="14770262" user="kmjjmj" visible="true" version="30" changeset="137339828">
@@ -11907,8 +12043,9 @@
     <nd ref="4421562834" />
     <tag k="highway" v="service" />
   </way>
-  <way id="375116131" timestamp="2023-06-04T10:24:20Z" uid="16548644" user="lemonardo" visible="true" version="9" changeset="136927495">
+  <way id="375116131" action="modify" timestamp="2023-06-04T10:24:20Z" uid="16548644" user="lemonardo" visible="true" version="9" changeset="136927495">
     <nd ref="3785057872" />
+    <nd ref="-33410" />
     <nd ref="4631198654" />
     <nd ref="3785057881" />
     <nd ref="3785057882" />
@@ -13418,8 +13555,9 @@
     <nd ref="-29420" />
     <tag k="highway" v="footway" />
   </way>
-  <way id="444688414" timestamp="2017-01-25T04:37:30Z" uid="5185811" user="YongGyu Han" visible="true" version="3" changeset="45461093">
+  <way id="444688414" action="modify" timestamp="2017-01-25T04:37:30Z" uid="5185811" user="YongGyu Han" visible="true" version="3" changeset="45461093">
     <nd ref="4421563843" />
+    <nd ref="-32884" />
     <nd ref="4631201539" />
     <nd ref="4421563844" />
     <nd ref="3785057881" />
@@ -15766,13 +15904,14 @@
     <tag k="building" v="university" />
     <tag k="name" v="제4공학관" />
   </way>
-  <way id="553899188" timestamp="2018-01-18T05:48:48Z" uid="6621459" user="redrum98" visible="true" version="1" changeset="55539871">
+  <way id="553899188" action="modify" timestamp="2018-01-18T05:48:48Z" uid="6621459" user="redrum98" visible="true" version="1" changeset="55539871">
     <nd ref="3785057926" />
     <nd ref="5346226878" />
     <nd ref="5346226879" />
     <nd ref="5346226880" />
     <nd ref="5346226881" />
     <nd ref="5346226882" />
+    <nd ref="-33271" />
     <nd ref="5346226883" />
     <nd ref="5346226884" />
     <tag k="footway" v="sidewalk" />
