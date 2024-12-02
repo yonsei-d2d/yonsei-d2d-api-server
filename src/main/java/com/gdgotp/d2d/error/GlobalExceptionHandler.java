@@ -1,5 +1,7 @@
 package com.gdgotp.d2d.error;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -31,8 +33,8 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(InvalidRouteLocationException.class)
-    public String processRuntimeError(InvalidRouteLocationException exception) {
-        return exception.getMessage();
+    public ResponseEntity<String> processRuntimeError(InvalidRouteLocationException exception) {
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(exception.getMessage());
     }
 
 }

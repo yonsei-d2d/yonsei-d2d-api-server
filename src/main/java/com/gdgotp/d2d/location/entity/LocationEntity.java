@@ -5,16 +5,17 @@ import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.ColumnDefault;
+import org.locationtech.jts.geom.Point;
 
 import java.util.List;
+import java.util.UUID;
 
 @Entity(name = "location")
 @Getter
 @Setter
 public class LocationEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private UUID id;
 
     @NotEmpty
     @Column(unique = true)
@@ -40,4 +41,9 @@ public class LocationEntity {
     @Column
     @ColumnDefault("0")
     private Integer level;
+
+    @OneToMany(mappedBy = "location", fetch = FetchType.EAGER)
+    private List<TagEntity> tag;
+
+    private Point geom;
 }

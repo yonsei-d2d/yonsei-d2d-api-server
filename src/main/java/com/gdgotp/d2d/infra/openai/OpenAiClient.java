@@ -22,4 +22,7 @@ public class OpenAiClient {
         model = new OpenAiChatModel(openAiApi, openAiChatOptions);
     }
 
+    public OpenAiChatModel getModel() {
+        return model;
+    }
 }

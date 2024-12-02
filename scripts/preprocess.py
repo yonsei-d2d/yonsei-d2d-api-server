@@ -2,11 +2,12 @@ import xml.etree.ElementTree as ET
 import sys
 import csv
 
-if len(sys.argv) != 2:
-    print("Usage: python script.py <path_to_xml_file>")
+if len(sys.argv) != 3:
+    print("Usage: python script.py <path_to_xml_file> <path_to_new_xml_file>")
     sys.exit(1)
 
 file_path = sys.argv[1]
+out_file_path = sys.argv[2]
 
 
 
@@ -42,6 +43,9 @@ try:
         location["longitude"] = node.get('lon')
         location["level"] = 0
         for tag in node.findall('tag'):
+            if tag.get('k') == 'db_id':
+                location["id"] = tag.get('v')
+                continue
             if tag.get('k') == 'location_type':
                 location["type"] = tag.get('v')
                 continue
@@ -58,7 +62,7 @@ try:
     
     print("Savind Data...")
 
-    saveCSV("location.csv", locationParsedList, ["node_id", "latitude", "longitude", "name", "type", "level", "floor"])
+    saveCSV(out_file_path, locationParsedList, ["id", "node_id", "latitude", "longitude", "name", "type", "level", "floor"])
 
     print("Success!")
 

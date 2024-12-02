@@ -6,7 +6,7 @@ import java.util.List;
 
 @Getter
 public class Step {
-    private String geometry;
+    private Geometry geometry;
     private Maneuver maneuver;
     private String mode;
     private String name;

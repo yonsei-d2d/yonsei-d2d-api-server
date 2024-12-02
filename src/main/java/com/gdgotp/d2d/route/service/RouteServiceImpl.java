@@ -1,5 +1,6 @@
 package com.gdgotp.d2d.route.service;
 
+import com.gdgotp.d2d.common.types.Routable;
 import com.gdgotp.d2d.error.InvalidRouteLocationException;
 import com.gdgotp.d2d.location.model.Location;
 import com.gdgotp.d2d.location.service.LocationService;
@@ -120,7 +121,7 @@ public class RouteServiceImpl implements RouteService {
     }
 
     @Override
-    public RouteResponseDto route(RouteRequestDto input) {
+    public RouteResponseDto routeByDto(RouteRequestDto input) {
         var originInput = input.getOrigin();
         var destinationInput = input.getDestination();
 
@@ -134,7 +135,7 @@ public class RouteServiceImpl implements RouteService {
         if (origin == null || destination == null) throw new InvalidRouteLocationException();
 
         // OSRM Route
-        Route result = routeEngineAdaptor.route(origin, destination);
+        Route result = route(origin, destination);
 
         // Map waypoints
         List<Location> waypoints = new ArrayList<>();
@@ -146,7 +147,32 @@ public class RouteServiceImpl implements RouteService {
         List<String> guide = generateGuide(waypoints);
 
         result.setWaypoints(waypoints);
+        result.setStopover(List.of(origin, destination));
         result.setGuide(guide);
         return RouteMapper.toRouteResponseDto(result);
+    }
+
+    @Override
+    public Route route(Routable origin, Routable destination) {
+        return routeEngineAdaptor.route(origin, destination);
+    }
+
+
+    @Override
+    public Route routeWithWaypoints(Location origin, Location destination, List<Location> way) {
+        Route result = routeEngineAdaptor.route(origin, destination, way);
+        // Map waypoints
+        List<Location> waypoints = new ArrayList<>();
+        waypoints.add(origin);
+        waypoints.addAll(way);
+        waypoints.add(destination);
+
+        // Generate Text Guide
+        List<String> guide = generateGuide(waypoints);
+
+        result.setStopover(waypoints);
+        result.setWaypoints(waypoints);
+        result.setGuide(guide);
+        return result;
     }
 }

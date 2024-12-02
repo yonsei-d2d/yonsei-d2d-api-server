@@ -20,21 +20,41 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	annotationProcessor('org.projectlombok:lombok')
-	implementation platform("org.springframework.ai:spring-ai-bom:1.0.0-SNAPSHOT")
-	implementation 'org.springframework.ai:spring-ai-openai-spring-boot-starter'
+	// Spring boot starter
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
-	implementation 'org.projectlombok:lombok'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	runtimeOnly 'org.postgresql:postgresql'
+
+	// Lombok
+	annotationProcessor('org.projectlombok:lombok')
+	implementation 'org.projectlombok:lombok'
+
+	// Spring ai
+	implementation platform("org.springframework.ai:spring-ai-bom:1.0.0-SNAPSHOT")
+	implementation 'org.springframework.ai:spring-ai-openai-spring-boot-starter'
+
+	// Log
 	implementation 'org.slf4j:jcl-over-slf4j'
 	implementation 'ch.qos.logback:logback-classic'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	testImplementation 'io.projectreactor:reactor-test'
-	runtimeOnly 'org.postgresql:postgresql'
+
+	// JUnit
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	testImplementation 'io.projectreactor:reactor-test'
+
+	// Flyaway
+	implementation 'org.flywaydb:flyway-core:11.0.0'
+	implementation 'org.flywaydb:flyway-database-postgresql'
+
+	// JTS
+	implementation 'org.locationtech.jts:jts-core:1.19.0'
+	implementation 'org.hibernate.orm:hibernate-spatial:6.6.0.Final'
+
+	// Jackson
+	implementation 'com.fasterxml.jackson.core:jackson-core:2.16.1'
 }
 
 tasks.named('test') {
