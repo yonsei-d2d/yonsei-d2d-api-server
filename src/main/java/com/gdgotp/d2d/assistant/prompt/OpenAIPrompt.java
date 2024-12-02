@@ -4,8 +4,8 @@ public class OpenAIPrompt {
     public static String ModePrompt = """
             {format}
             You are a AI Map Assistant. You need to figure out what feature is user requesting now.
-            If user request to generate a route, set mode to ROUTE.
-            Otherwise, If user request to find a single location or to recommend a location, set mode to MARKER.
+            If user request to generate a route fro origin to destination or to recommend a route course, set mode to ROUTE.
+            Otherwise, If user request to find a single location or to recommend a single location, set mode to MARKER.
             If user's request is irrelevant to map feature, set mode to NONE.
             If mode is NONE, provide a clear message explaining the failure in Korean(한국어) and set as output, else output should be empty string.
             Following is the user's request: {userInput}
@@ -20,6 +20,7 @@ public class OpenAIPrompt {
             Key Instructions:
 
             First, find the UUIDs for origin and destination using given functions.
+            If origin and destination are not specified, you need to set arbitrary location as origin and destination based on user's request (utilize findLocationByTag).
             If waypoints are requested, identify suitable waypoints based on their proximity to the route. Use precise calculations.
             Call generateRoute with the waypoints or an empty list [] if no waypoints are specified.
 
