@@ -18,6 +18,7 @@ public class LocationMapper {
                 .name(entity.getName())
                 .level(entity.getLevel())
                 .tag(entity.getTag().stream().map(TagEntity::getTag).toList())
+                .type(LocationType.fromValue(entity.getType()))
                 .build();
     }
 

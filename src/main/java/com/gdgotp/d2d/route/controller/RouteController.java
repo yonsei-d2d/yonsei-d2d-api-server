@@ -17,6 +17,6 @@ public class RouteController {
     @PostMapping()
     @ResponseBody
     public RouteResponseDto route(@RequestBody RouteRequestDto input) {
-        return routeService.route(input);
+        return routeService.routeByDto(input);
     }
 }

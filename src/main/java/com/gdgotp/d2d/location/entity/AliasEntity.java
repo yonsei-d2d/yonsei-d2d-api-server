@@ -5,10 +5,6 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;
 import lombok.Setter;
-import org.hibernate.annotations.ColumnDefault;
-
-import java.util.List;
-import java.util.UUID;
 
 @Entity(name = "alias")
 @Getter

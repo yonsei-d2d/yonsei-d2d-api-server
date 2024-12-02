@@ -17,6 +17,7 @@ public class RouteResponseDto {
     private double duration;
     private double distance;
     private List<WaypointDto> waypoints;
+    private List<WaypointDto> stopovers;
     private List<String> guide;
 
     @SuperBuilder

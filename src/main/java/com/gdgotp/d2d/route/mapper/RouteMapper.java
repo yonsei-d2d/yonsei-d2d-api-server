@@ -32,6 +32,7 @@ public class RouteMapper {
                 .duration(route.getDuration())
                 .distance(route.getDistance())
                 .waypoints(route.getWaypoints().stream().map(LocationMapper::toWaypointDto).toList())
+                .stopovers(route.getStopover().stream().map(LocationMapper::toWaypointDto).toList())
                 .guide(route.getGuide())
                 .build();
     }
