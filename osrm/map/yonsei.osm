@@ -1045,10 +1045,11 @@
   </node>
   <node id="-33204" action="modify" visible="true" lat="37.56403215946" lon="126.93452768708" />
   <node id="-33205" action="modify" visible="true" lat="37.56405222595" lon="126.93441883863">
+    <tag k="db_id" v="6c52c162-9225-50e0-8d68-8a71a7dcb70f" />
     <tag k="level" v="1" />
     <tag k="location_type" v="convenience" />
     <tag k="name" v="세븐일레븐 연세대과학관점 (편의점)" />
-  <tag k="db_id" v="6c52c162-9225-50e0-8d68-8a71a7dcb70f" /></node>
+  </node>
   <node id="-33271" action="modify" visible="true" lat="37.56581867868" lon="126.93713014699" />
   <node id="-33278" action="modify" visible="true" lat="37.56588586485" lon="126.93677582723">
     <tag k="db_id" v="efb86b19-9060-5859-9dd1-ee62a0651ef6" />
@@ -4581,7 +4582,11 @@
   <node id="5231995998" action="delete" timestamp="2018-09-08T15:18:57Z" uid="2945135" user="Q8ba2di0Pa" visible="true" version="2" changeset="62404709" lat="37.5598236" lon="126.9431856" />
   <node id="5231995999" action="delete" timestamp="2018-09-08T15:18:57Z" uid="2945135" user="Q8ba2di0Pa" visible="true" version="2" changeset="62404709" lat="37.5597642" lon="126.9431878" />
   <node id="5231996000" action="delete" timestamp="2018-09-08T15:18:57Z" uid="2945135" user="Q8ba2di0Pa" visible="true" version="2" changeset="62404709" lat="37.5597069" lon="126.9407484" />
-  <node id="5334368244" timestamp="2019-03-08T01:18:46Z" uid="751501" user="Stleamist" visible="true" version="2" changeset="67906012" lat="37.5615696" lon="126.9334969" />
+  <node id="5334368244" action="modify" timestamp="2019-03-08T01:18:46Z" uid="751501" user="Stleamist" visible="true" version="2" changeset="67906012" lat="37.5615696" lon="126.9334969">
+    <tag k="level" v="0" />
+    <tag k="location_type" v="place" />
+    <tag k="name" v="연세대학교 남문" />
+  <tag k="db_id" v="f7be2888-58c7-569f-9fdf-1203e4641f5d" /></node>
   <node id="5339834536" timestamp="2019-03-08T01:18:46Z" uid="751501" user="Stleamist" visible="true" version="2" changeset="67906012" lat="37.5619014" lon="126.9343454" />
   <node id="5339834537" action="delete" timestamp="2018-01-14T23:52:55Z" uid="6621459" user="redrum98" visible="true" version="1" changeset="55446573" lat="37.5638468" lon="126.936494" />
   <node id="5339834538" action="delete" timestamp="2018-01-14T23:52:55Z" uid="6621459" user="redrum98" visible="true" version="1" changeset="55446573" lat="37.5638568" lon="126.9363961" />
@@ -4845,9 +4850,11 @@
   <node id="5799952869" timestamp="2018-07-31T22:47:42Z" uid="751501" user="Stleamist" visible="true" version="1" changeset="61244190" lat="37.560433" lon="126.9365722" />
   <node id="5799952870" timestamp="2018-07-31T22:47:42Z" uid="751501" user="Stleamist" visible="true" version="1" changeset="61244190" lat="37.5603964" lon="126.9365377" />
   <node id="5799952871" action="delete" timestamp="2018-07-31T22:47:42Z" uid="751501" user="Stleamist" visible="true" version="1" changeset="61244190" lat="37.5601567" lon="126.9367446" />
-  <node id="5799952872" timestamp="2019-03-08T01:28:22Z" uid="751501" user="Stleamist" visible="true" version="2" changeset="67906196" lat="37.5604467" lon="126.9368302">
-    <tag k="barrier" v="gate" />
-  </node>
+  <node id="5799952872" action="modify" timestamp="2019-03-08T01:28:22Z" uid="751501" user="Stleamist" visible="true" version="2" changeset="67906196" lat="37.5604467" lon="126.9368302">
+    <tag k="level" v="0" />
+    <tag k="location_type" v="place" />
+    <tag k="name" v="연세대학교 정문" />
+  <tag k="db_id" v="1d9c35d2-4703-5bf1-9438-b12ee77ad05e" /></node>
   <node id="5799952873" timestamp="2023-06-04T11:02:40Z" uid="16548644" user="lemonardo" visible="true" version="3" changeset="136928531" lat="37.5606357" lon="126.937089">
     <tag k="amenity" v="parking_entrance" />
   </node>
@@ -5827,7 +5834,11 @@
   <node id="7967000704" action="delete" timestamp="2020-10-02T18:47:31Z" uid="8075692" user="masterkr" visible="true" version="1" changeset="91879855" lat="37.5656907" lon="126.9507878" />
   <node id="7967000729" action="delete" timestamp="2020-10-02T18:47:31Z" uid="8075692" user="masterkr" visible="true" version="1" changeset="91879855" lat="37.5653905" lon="126.9507064" />
   <node id="7967000730" action="delete" timestamp="2020-10-02T18:47:31Z" uid="8075692" user="masterkr" visible="true" version="1" changeset="91879855" lat="37.5652568" lon="126.9507036" />
-  <node id="8154743848" timestamp="2020-11-23T13:39:59Z" uid="12224427" user="jsh307000" visible="true" version="1" changeset="94641693" lat="37.5638432" lon="126.9338855" />
+  <node id="8154743848" action="modify" timestamp="2020-11-23T13:39:59Z" uid="12224427" user="jsh307000" visible="true" version="1" changeset="94641693" lat="37.5638432" lon="126.9338855">
+    <tag k="level" v="0" />
+    <tag k="location_type" v="place" />
+    <tag k="name" v="연세대학교 서문" />
+  <tag k="db_id" v="9304ae55-7a9a-562d-815f-0bdfed3c1479" /></node>
   <node id="8154743849" action="delete" timestamp="2020-11-23T13:39:59Z" uid="12224427" user="jsh307000" visible="true" version="1" changeset="94641693" lat="37.5636987" lon="126.9338102" />
   <node id="8154743850" action="delete" timestamp="2020-11-23T13:39:59Z" uid="12224427" user="jsh307000" visible="true" version="1" changeset="94641693" lat="37.5636194" lon="126.933707" />
   <node id="8154743851" action="delete" timestamp="2020-11-23T13:39:59Z" uid="12224427" user="jsh307000" visible="true" version="1" changeset="94641693" lat="37.563573" lon="126.9336254" />
